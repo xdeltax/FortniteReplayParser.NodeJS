@@ -9,8 +9,10 @@ node index.js
 ```
 
 ### nodejs to exe
-```npm install -g pkg```
-```pkg index.js -o "xdxReplayParser"```
+```
+npm install -g pkg
+pkg index.js -o "xdxReplayParser"
+```
 
 ### clone example
 ```
