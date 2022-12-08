@@ -7,8 +7,6 @@ __*
 _*
 *.INTERN.*
 todo.txt
-basemaps
-*.exe
 
 # dotenv environment variables file
 .DS_Store

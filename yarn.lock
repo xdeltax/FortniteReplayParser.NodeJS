@@ -9,10 +9,10 @@
   dependencies:
     "ms" "^2.1.1"
 
-"fortnite-replay-parser@^1.4.2":
-  "integrity" "sha512-OjNZYuinfCafjUt/SewswoGEhWjz97eRxSv7t07y+kvAWooo4Ml1DDE1mpPcDXVJCn8NZH8pEOC8PSy7QA2oPg=="
-  "resolved" "https://registry.npmjs.org/fortnite-replay-parser/-/fortnite-replay-parser-1.4.2.tgz"
-  "version" "1.4.2"
+"fortnite-replay-parser@^1.4.5":
+  "integrity" "sha512-GMjBhObl14eapTOgAHqwb00jcxyOVUPdm4ApUniNCaRlJDN93K4OZc97R0cof2Sb6rrqYTdFLUxmw/fUjuQEJg=="
+  "resolved" "https://registry.npmjs.org/fortnite-replay-parser/-/fortnite-replay-parser-1.4.5.tgz"
+  "version" "1.4.5"
   dependencies:
     "needle" "^3.0.0"
     "ooz-wasm" "1.0.0"

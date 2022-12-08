@@ -15,13 +15,14 @@ const customClasses      = require('./FortniteReplayParser/Classes');
 // GLOBALS
 ///////////////////////////////////////////////
 const fextFortniteReplay = ".replay";
-const fsubdirDecodedJSON = "./DECODED2022/";
+const fsubdirDecodedJSON = "./DECODED/";
 
 let   fdirFortniteReplay = path.join(homedir, "./AppData/Local/FortniteGame/Saved/Demos/");
 // fallback
 if (!fs.existsSync(fdirFortniteReplay)) fdirFortniteReplay = "../Demos/";
 if (!fs.existsSync(fdirFortniteReplay)) fdirFortniteReplay = "./Demos/";
 if (!fs.existsSync(fdirFortniteReplay)) fdirFortniteReplay = "./DemosTEST/";
+if (!fs.existsSync(fdirFortniteReplay)) fdirFortniteReplay = "./REPLAYS/";
 if (!fs.existsSync(fdirFortniteReplay)) fdirFortniteReplay = "./";
 
 const fdirFortniteDecoded = fdirFortniteReplay + fsubdirDecodedJSON;

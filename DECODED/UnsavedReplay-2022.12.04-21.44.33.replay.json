@@ -1,0 +1,3602 @@
+{
+  "header": {
+    "Magic": 754295101,
+    "NetworkVersion": 18,
+    "NetworkChecksum": 177970564,
+    "EngineNetworkVersion": 30,
+    "GameNetworkProtocolVersion": 0,
+    "Guid": "11d049b5400fe54ebdfcaa2d99d10476",
+    "Major": "23",
+    "Minor": "00",
+    "Patch": 0,
+    "Changelist": 23344627,
+    "Branch": "++Fortnite+Release-23.00",
+    "LevelNamesAndTimes": {
+      "/Game/Athena/Asteria/Maps/Asteria_Terrain": 0
+    },
+    "Flags": 139,
+    "gameSpecificData": [
+      "SubGame=Athena"
+    ]
+  },
+  "info": {
+    "LengthInMs": 1296691,
+    "NetworkVersion": 2,
+    "Changelist": 23341627,
+    "FriendlyName": "Ungespeicherte Wiederholung",
+    "Timestamp": "2022-12-04T21:44:33.124Z",
+    "TotalDataSizeInBytes": 0,
+    "IsLive": false,
+    "IsCompressed": true,
+    "IsEncrypted": true,
+    "EncryptionKey": {
+      "type": "Buffer",
+      "data": [
+        187,
+        255,
+        169,
+        87,
+        53,
+        230,
+        56,
+        235,
+        115,
+        125,
+        113,
+        102,
+        115,
+        5,
+        127,
+        135,
+        0,
+        205,
+        242,
+        246,
+        123,
+        149,
+        129,
+        220,
+        178,
+        215,
+        28,
+        206,
+        236,
+        42,
+        114,
+        104
+      ]
+    },
+    "FileVersion": 6,
+    "Magic": 480436863
+  },
+  "chunks": {
+    "replayData": [
+      {
+        "start": 0,
+        "end": 20097,
+        "length": 488816,
+        "startPos": 7744
+      },
+      {
+        "start": 20097,
+        "end": 40110,
+        "length": 385824,
+        "startPos": 3921128
+      },
+      {
+        "start": 40110,
+        "end": 60112,
+        "length": 354592,
+        "startPos": 7007912
+      },
+      {
+        "start": 60112,
+        "end": 80129,
+        "length": 102048,
+        "startPos": 11665840
+      },
+      {
+        "start": 80129,
+        "end": 100124,
+        "length": 173152,
+        "startPos": 12482416
+      },
+      {
+        "start": 100124,
+        "end": 120135,
+        "length": 199776,
+        "startPos": 13867824
+      },
+      {
+        "start": 120135,
+        "end": 140133,
+        "length": 204128,
+        "startPos": 17841400
+      },
+      {
+        "start": 140133,
+        "end": 160147,
+        "length": 160176,
+        "startPos": 19490600
+      },
+      {
+        "start": 160147,
+        "end": 180156,
+        "length": 175632,
+        "startPos": 20782856
+      },
+      {
+        "start": 180156,
+        "end": 200167,
+        "length": 160736,
+        "startPos": 24718720
+      },
+      {
+        "start": 200167,
+        "end": 220175,
+        "length": 150688,
+        "startPos": 26020784
+      },
+      {
+        "start": 220175,
+        "end": 240187,
+        "length": 164336,
+        "startPos": 27234472
+      },
+      {
+        "start": 240187,
+        "end": 260203,
+        "length": 150448,
+        "startPos": 31288304
+      },
+      {
+        "start": 260203,
+        "end": 280202,
+        "length": 151440,
+        "startPos": 32500072
+      },
+      {
+        "start": 280202,
+        "end": 300203,
+        "length": 142080,
+        "startPos": 33719776
+      },
+      {
+        "start": 300203,
+        "end": 320219,
+        "length": 152224,
+        "startPos": 37679632
+      },
+      {
+        "start": 320219,
+        "end": 340229,
+        "length": 137760,
+        "startPos": 38905608
+      },
+      {
+        "start": 340229,
+        "end": 360239,
+        "length": 123056,
+        "startPos": 40021200
+      },
+      {
+        "start": 360239,
+        "end": 380240,
+        "length": 121616,
+        "startPos": 43905968
+      },
+      {
+        "start": 380240,
+        "end": 400253,
+        "length": 116912,
+        "startPos": 44884416
+      },
+      {
+        "start": 400253,
+        "end": 420255,
+        "length": 98272,
+        "startPos": 45827896
+      },
+      {
+        "start": 420255,
+        "end": 440271,
+        "length": 109856,
+        "startPos": 49534256
+      },
+      {
+        "start": 440271,
+        "end": 460271,
+        "length": 114992,
+        "startPos": 50415960
+      },
+      {
+        "start": 460271,
+        "end": 480285,
+        "length": 84000,
+        "startPos": 51341288
+      },
+      {
+        "start": 480285,
+        "end": 500293,
+        "length": 73824,
+        "startPos": 54991432
+      },
+      {
+        "start": 500293,
+        "end": 520302,
+        "length": 75792,
+        "startPos": 55582216
+      },
+      {
+        "start": 520302,
+        "end": 540307,
+        "length": 100256,
+        "startPos": 56196736
+      },
+      {
+        "start": 540307,
+        "end": 560315,
+        "length": 95616,
+        "startPos": 60046736
+      },
+      {
+        "start": 560315,
+        "end": 580314,
+        "length": 81456,
+        "startPos": 60814520
+      },
+      {
+        "start": 580314,
+        "end": 600314,
+        "length": 95088,
+        "startPos": 61471688
+      },
+      {
+        "start": 600314,
+        "end": 620330,
+        "length": 196608,
+        "startPos": 65386432
+      },
+      {
+        "start": 620330,
+        "end": 640340,
+        "length": 154464,
+        "startPos": 66959488
+      },
+      {
+        "start": 640340,
+        "end": 660342,
+        "length": 142544,
+        "startPos": 68203384
+      },
+      {
+        "start": 660342,
+        "end": 680356,
+        "length": 156336,
+        "startPos": 72765048
+      },
+      {
+        "start": 680356,
+        "end": 700370,
+        "length": 102912,
+        "startPos": 74018592
+      },
+      {
+        "start": 700370,
+        "end": 720381,
+        "length": 155504,
+        "startPos": 74842080
+      },
+      {
+        "start": 720381,
+        "end": 740378,
+        "length": 162672,
+        "startPos": 79377504
+      },
+      {
+        "start": 740378,
+        "end": 760388,
+        "length": 170464,
+        "startPos": 80679072
+      },
+      {
+        "start": 760388,
+        "end": 780401,
+        "length": 156432,
+        "startPos": 82042976
+      },
+      {
+        "start": 780401,
+        "end": 800405,
+        "length": 153248,
+        "startPos": 86963248
+      },
+      {
+        "start": 800405,
+        "end": 820413,
+        "length": 145136,
+        "startPos": 88194752
+      },
+      {
+        "start": 820413,
+        "end": 840420,
+        "length": 110144,
+        "startPos": 89364024
+      },
+      {
+        "start": 840420,
+        "end": 860423,
+        "length": 101136,
+        "startPos": 93874384
+      },
+      {
+        "start": 860423,
+        "end": 880426,
+        "length": 96928,
+        "startPos": 94683664
+      },
+      {
+        "start": 880426,
+        "end": 900425,
+        "length": 84640,
+        "startPos": 95459280
+      },
+      {
+        "start": 900425,
+        "end": 920440,
+        "length": 117216,
+        "startPos": 99753064
+      },
+      {
+        "start": 920440,
+        "end": 940455,
+        "length": 185248,
+        "startPos": 100693648
+      },
+      {
+        "start": 940455,
+        "end": 960465,
+        "length": 147344,
+        "startPos": 102181152
+      },
+      {
+        "start": 960465,
+        "end": 980463,
+        "length": 119552,
+        "startPos": 107178936
+      },
+      {
+        "start": 980463,
+        "end": 1000475,
+        "length": 102000,
+        "startPos": 108138208
+      },
+      {
+        "start": 1000475,
+        "end": 1020485,
+        "length": 92224,
+        "startPos": 108957064
+      },
+      {
+        "start": 1020485,
+        "end": 1040486,
+        "length": 88928,
+        "startPos": 113537184
+      },
+      {
+        "start": 1040486,
+        "end": 1060492,
+        "length": 78512,
+        "startPos": 114251464
+      },
+      {
+        "start": 1060492,
+        "end": 1080502,
+        "length": 98560,
+        "startPos": 114879752
+      },
+      {
+        "start": 1080502,
+        "end": 1100504,
+        "length": 70560,
+        "startPos": 119586080
+      },
+      {
+        "start": 1100504,
+        "end": 1120517,
+        "length": 62928,
+        "startPos": 120150752
+      },
+      {
+        "start": 1120517,
+        "end": 1140527,
+        "length": 71712,
+        "startPos": 120654368
+      },
+      {
+        "start": 1140527,
+        "end": 1160540,
+        "length": 63600,
+        "startPos": 125126328
+      },
+      {
+        "start": 1160540,
+        "end": 1180557,
+        "length": 87840,
+        "startPos": 125635320
+      },
+      {
+        "start": 1180557,
+        "end": 1200565,
+        "length": 92112,
+        "startPos": 126338232
+      },
+      {
+        "start": 1200565,
+        "end": 1220578,
+        "length": 73184,
+        "startPos": 130975568
+      },
+      {
+        "start": 1220578,
+        "end": 1240584,
+        "length": 88592,
+        "startPos": 131561232
+      },
+      {
+        "start": 1240584,
+        "end": 1260597,
+        "length": 49952,
+        "startPos": 132275544
+      },
+      {
+        "start": 1260597,
+        "end": 1280602,
+        "length": 48768,
+        "startPos": 136613232
+      },
+      {
+        "start": 1280602,
+        "end": 1296691,
+        "length": 63440,
+        "startPos": 137007624
+      }
+    ],
+    "checkpoints": [
+      {
+        "id": "checkpoint0",
+        "group": "checkpoint",
+        "metadata": "3",
+        "start": 60112,
+        "end": 60112,
+        "sizeInBytes": 227568,
+        "startPos": 9845104
+      },
+      {
+        "id": "checkpoint1",
+        "group": "checkpoint",
+        "metadata": "6",
+        "start": 120135,
+        "end": 120135,
+        "sizeInBytes": 294176,
+        "startPos": 15466488
+      },
+      {
+        "id": "checkpoint2",
+        "group": "checkpoint",
+        "metadata": "9",
+        "start": 180156,
+        "end": 180156,
+        "sizeInBytes": 314272,
+        "startPos": 22188368
+      },
+      {
+        "id": "checkpoint3",
+        "group": "checkpoint",
+        "metadata": "12",
+        "start": 240187,
+        "end": 240187,
+        "sizeInBytes": 341312,
+        "startPos": 28549624
+      },
+      {
+        "id": "checkpoint4",
+        "group": "checkpoint",
+        "metadata": "15",
+        "start": 300203,
+        "end": 300203,
+        "sizeInBytes": 351488,
+        "startPos": 34856880
+      },
+      {
+        "id": "checkpoint5",
+        "group": "checkpoint",
+        "metadata": "18",
+        "start": 360239,
+        "end": 360239,
+        "sizeInBytes": 361792,
+        "startPos": 41006112
+      },
+      {
+        "id": "checkpoint6",
+        "group": "checkpoint",
+        "metadata": "21",
+        "start": 420255,
+        "end": 420255,
+        "sizeInBytes": 364608,
+        "startPos": 46614536
+      },
+      {
+        "id": "checkpoint7",
+        "group": "checkpoint",
+        "metadata": "24",
+        "start": 480285,
+        "end": 480285,
+        "sizeInBytes": 371520,
+        "startPos": 52013752
+      },
+      {
+        "id": "checkpoint8",
+        "group": "checkpoint",
+        "metadata": "27",
+        "start": 540307,
+        "end": 540307,
+        "sizeInBytes": 380912,
+        "startPos": 56999248
+      },
+      {
+        "id": "checkpoint9",
+        "group": "checkpoint",
+        "metadata": "30",
+        "start": 600314,
+        "end": 600314,
+        "sizeInBytes": 393840,
+        "startPos": 62232856
+      },
+      {
+        "id": "checkpoint10",
+        "group": "checkpoint",
+        "metadata": "33",
+        "start": 660342,
+        "end": 660342,
+        "sizeInBytes": 427248,
+        "startPos": 69344208
+      },
+      {
+        "id": "checkpoint11",
+        "group": "checkpoint",
+        "metadata": "36",
+        "start": 720381,
+        "end": 720381,
+        "sizeInBytes": 411008,
+        "startPos": 76086584
+      },
+      {
+        "id": "checkpoint12",
+        "group": "checkpoint",
+        "metadata": "39",
+        "start": 780401,
+        "end": 780401,
+        "sizeInBytes": 457520,
+        "startPos": 83294904
+      },
+      {
+        "id": "checkpoint13",
+        "group": "checkpoint",
+        "metadata": "42",
+        "start": 840420,
+        "end": 840420,
+        "sizeInBytes": 453568,
+        "startPos": 90245648
+      },
+      {
+        "id": "checkpoint14",
+        "group": "checkpoint",
+        "metadata": "45",
+        "start": 900425,
+        "end": 900425,
+        "sizeInBytes": 452000,
+        "startPos": 96136872
+      },
+      {
+        "id": "checkpoint15",
+        "group": "checkpoint",
+        "metadata": "48",
+        "start": 960465,
+        "end": 960465,
+        "sizeInBytes": 477296,
+        "startPos": 103360376
+      },
+      {
+        "id": "checkpoint16",
+        "group": "checkpoint",
+        "metadata": "51",
+        "start": 1020485,
+        "end": 1020485,
+        "sizeInBytes": 480208,
+        "startPos": 109695328
+      },
+      {
+        "id": "checkpoint17",
+        "group": "checkpoint",
+        "metadata": "54",
+        "start": 1080502,
+        "end": 1080502,
+        "sizeInBytes": 489648,
+        "startPos": 115668704
+      },
+      {
+        "id": "checkpoint18",
+        "group": "checkpoint",
+        "metadata": "57",
+        "start": 1140527,
+        "end": 1140527,
+        "sizeInBytes": 487200,
+        "startPos": 121228536
+      },
+      {
+        "id": "checkpoint19",
+        "group": "checkpoint",
+        "metadata": "60",
+        "start": 1200565,
+        "end": 1200565,
+        "sizeInBytes": 487472,
+        "startPos": 127075600
+      },
+      {
+        "id": "checkpoint20",
+        "group": "checkpoint",
+        "metadata": "63",
+        "start": 1260597,
+        "end": 1260597,
+        "sizeInBytes": 492176,
+        "startPos": 132675632
+      }
+    ],
+    "events": [
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AdditionGFPEvent",
+        "group": "AdditionGFPEventGroup",
+        "metadata": "AdditionGFPEvent",
+        "startTime": 0,
+        "endtime": 0,
+        "length": 16,
+        "startPos": 5728
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_ADD68BE94D9C9F7B1E5DF6ACAED44FC7",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 35073,
+        "endtime": 35073,
+        "length": 208,
+        "startPos": 3919272
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_CBE565C84BF0A1FFD4ECAFA4C5D757ED",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 126504,
+        "endtime": 126504,
+        "length": 208,
+        "startPos": 17820896
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_6AC658924D7F8D15D5C2E99E4A4A105D",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 131274,
+        "endtime": 131274,
+        "length": 208,
+        "startPos": 17823560
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_C75C85DA43A506BD884665963CF34F8D",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 132925,
+        "endtime": 132925,
+        "length": 208,
+        "startPos": 17826224
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_7647C6634BFFC4D3964D7E872746B90F",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 133063,
+        "endtime": 133063,
+        "length": 208,
+        "startPos": 17828888
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_DDE312B04CAF55C574C2338862BCDA66",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 135284,
+        "endtime": 135284,
+        "length": 208,
+        "startPos": 17831552
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_9EF8D06444C593135D2DA0AE951B0966",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 137727,
+        "endtime": 137727,
+        "length": 208,
+        "startPos": 17834216
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_EB3A9F3F4A397AF1E576B299727FF04E",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 138661,
+        "endtime": 138661,
+        "length": 208,
+        "startPos": 17836880
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_2F8EE4A74C2749CBBF0B16875836B786",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 138761,
+        "endtime": 138761,
+        "length": 208,
+        "startPos": 17839544
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_F7B55C444261975DAC8B648A7417DB74",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 147981,
+        "endtime": 147981,
+        "length": 208,
+        "startPos": 19475424
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_3819757F4A30D3494A5DBB9591332F79",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 152215,
+        "endtime": 152215,
+        "length": 208,
+        "startPos": 19478088
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_5D1496CE49F0529A7FD862899A9EBC02",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 155738,
+        "endtime": 155738,
+        "length": 208,
+        "startPos": 19480752
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_F897D1D34C10E1083349FEA76B022735",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 156300,
+        "endtime": 156300,
+        "length": 208,
+        "startPos": 19483416
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_917E2ECE42877722F2E63B967C0674AD",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 156570,
+        "endtime": 156570,
+        "length": 208,
+        "startPos": 19486080
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_D486832E4CE567A49007A6BDD731F19A",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 159820,
+        "endtime": 159820,
+        "length": 208,
+        "startPos": 19488744
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_9C1172BF45E26869353B1692769E7902",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 165100,
+        "endtime": 165100,
+        "length": 208,
+        "startPos": 20773008
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_995529AF4F75C8EF30DF10ACEC68D9F4",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 170740,
+        "endtime": 170740,
+        "length": 208,
+        "startPos": 20775672
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_DBF8D15749950157BC9E55A30709131E",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 175588,
+        "endtime": 175588,
+        "length": 208,
+        "startPos": 20778336
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_80F65C824E79615FEBCB7EA1063EF4E3",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 177000,
+        "endtime": 177000,
+        "length": 208,
+        "startPos": 20781000
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_6AF52B1E4F8E1EE764CBED9E97BBC175",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 181380,
+        "endtime": 181380,
+        "length": 208,
+        "startPos": 24703544
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_B02EBD2F4F1C6D0FFAB93F803D6BC6CE",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 183337,
+        "endtime": 183337,
+        "length": 208,
+        "startPos": 24706208
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_ACDE5AB646216E3C7BE960847A65685F",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 190032,
+        "endtime": 190032,
+        "length": 208,
+        "startPos": 24708872
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_A12B6D0E4D5A5D64CF578BBB008B1D5E",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 193971,
+        "endtime": 193971,
+        "length": 208,
+        "startPos": 24711536
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_C40558CE4E15BA287E30CE8CCD23212A",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 195972,
+        "endtime": 195972,
+        "length": 208,
+        "startPos": 24714200
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_B3EEF1594CEBC51DB5F7AC9519FC109F",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 196808,
+        "endtime": 196808,
+        "length": 208,
+        "startPos": 24716864
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AD536912422B0DF3B6CD9DAC877E2305",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 200196,
+        "endtime": 200196,
+        "length": 208,
+        "startPos": 26005608
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_612203654B01D9A522D21C8D01995F61",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 209936,
+        "endtime": 209936,
+        "length": 208,
+        "startPos": 26008272
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_72DDAE134EF73712A81129B604BBA776",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 213172,
+        "endtime": 213172,
+        "length": 208,
+        "startPos": 26010936
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_2D07E02A403FEC89DA5F0AAD7478477A",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 218622,
+        "endtime": 218622,
+        "length": 208,
+        "startPos": 26013600
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AEBA11B941BF660593B98CACE1140BC9",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 218921,
+        "endtime": 218921,
+        "length": 208,
+        "startPos": 26016264
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_73E32A514156ACD59F7A91AB21F4BA0B",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 219761,
+        "endtime": 219761,
+        "length": 208,
+        "startPos": 26018928
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_01D0BA194E8F7A42A55B5D9FBDA2F4F2",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 224637,
+        "endtime": 224637,
+        "length": 208,
+        "startPos": 27227288
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_123CD868406135820BC673B663B23F72",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 227237,
+        "endtime": 227237,
+        "length": 208,
+        "startPos": 27229952
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_F3670A414E33CE8E8FACD8B491519A21",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 228839,
+        "endtime": 228839,
+        "length": 208,
+        "startPos": 27232616
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_59F80A58454F62688DD79188852B6F32",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 242881,
+        "endtime": 242881,
+        "length": 208,
+        "startPos": 31281120
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_B9599BEB43713A0C1676D9B7E6C2C64D",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 251072,
+        "endtime": 251072,
+        "length": 208,
+        "startPos": 31283784
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_4F880D3C44633C051C6C098A7AA561E1",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 252495,
+        "endtime": 252495,
+        "length": 208,
+        "startPos": 31286448
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_061EA1FB463FD050DBB9C894FE8115E0",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 262198,
+        "endtime": 262198,
+        "length": 208,
+        "startPos": 32492888
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_1D86F3B0477B7B028F54958DA9C106DB",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 271247,
+        "endtime": 271247,
+        "length": 208,
+        "startPos": 32495552
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AF8EC5A141A8253CBD4A43ABC21A8FDB",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 274787,
+        "endtime": 274787,
+        "length": 208,
+        "startPos": 32498216
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_417C2142485CC5FD5C4C418CAC178F86",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 283015,
+        "endtime": 283015,
+        "length": 208,
+        "startPos": 33712592
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AEDE8679468173D2CDB18090C159EE9F",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 283878,
+        "endtime": 283878,
+        "length": 208,
+        "startPos": 33715256
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_6B8DAEDF442F25C9FAC4A98C05528BEB",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 294088,
+        "endtime": 294088,
+        "length": 208,
+        "startPos": 33717920
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_0624222A47D879552EA37E91E00C3428",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 304014,
+        "endtime": 304014,
+        "length": 208,
+        "startPos": 37669784
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_95483D0B4D9F38C2E2A3DCA3C24910BB",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 304080,
+        "endtime": 304080,
+        "length": 208,
+        "startPos": 37672448
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_9BDCE5194AB536C94E987EAC842B3AEA",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 304385,
+        "endtime": 304385,
+        "length": 208,
+        "startPos": 37675112
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_8503D21047BF60C59B0A28B57B946D89",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 307937,
+        "endtime": 307937,
+        "length": 208,
+        "startPos": 37677776
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_14C0D338427817B682E7EAA175661BF6",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 326759,
+        "endtime": 326759,
+        "length": 208,
+        "startPos": 38898424
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_CB85A52843CA64883DA8BBB4C8825540",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 330097,
+        "endtime": 330097,
+        "length": 208,
+        "startPos": 38901088
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_ECA3C7754923DC19075A92A2A56F0ADF",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 333937,
+        "endtime": 333937,
+        "length": 208,
+        "startPos": 38903752
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_EFCF4D21424F5367F715CBABAF60F99F",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 343287,
+        "endtime": 343287,
+        "length": 208,
+        "startPos": 40008688
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_E2AD9D4C40D849F614A6BEA1FA6D88A2",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 343831,
+        "endtime": 343831,
+        "length": 208,
+        "startPos": 40011352
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_9C51A8924B465D6E26C007A79735FDEB",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 348681,
+        "endtime": 348681,
+        "length": 208,
+        "startPos": 40014016
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_33FB3BF142DF3F49C49FFDAD38233B15",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 355121,
+        "endtime": 355121,
+        "length": 208,
+        "startPos": 40016680
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_BA07E36D4D6838C449B282BEB23DC486",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 357004,
+        "endtime": 357004,
+        "length": 208,
+        "startPos": 40019344
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_5B99E21F4EE6E0D7B35F389442C2650C",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 363491,
+        "endtime": 363491,
+        "length": 208,
+        "startPos": 43901448
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_340AA6B54BBE72C40739CD9677CDE9B1",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 366903,
+        "endtime": 366903,
+        "length": 208,
+        "startPos": 43904112
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_29BAEDA84A57848C05D05A885752B521",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 387063,
+        "endtime": 387063,
+        "length": 208,
+        "startPos": 44879896
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_C759FBEA42B8CDDAB5437DABBAFF8C4A",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 390905,
+        "endtime": 390905,
+        "length": 208,
+        "startPos": 44882560
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_DE3CE37E40B0815DEDB383A4D387EF16",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 410126,
+        "endtime": 410126,
+        "length": 208,
+        "startPos": 45820712
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_6D2ACE624D0971BD80670FA4CDA3F4BA",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 413667,
+        "endtime": 413667,
+        "length": 208,
+        "startPos": 45823376
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_380C5E7A454ABD7523E3398A2BCAFCB7",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 418914,
+        "endtime": 418914,
+        "length": 208,
+        "startPos": 45826040
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_A45B7C7746059312AD4276B632B1A852",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 437324,
+        "endtime": 437324,
+        "length": 208,
+        "startPos": 49532400
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_879BE23B4CE48CCA7E9787A7C49B71CB",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 454889,
+        "endtime": 454889,
+        "length": 208,
+        "startPos": 50414104
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_6BD99BE54F1CB93DCF81D38FCA86669A",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 478315,
+        "endtime": 478315,
+        "length": 208,
+        "startPos": 51336896
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_A6B2B1A94005A3C61E7E64958B2E4950",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 479404,
+        "endtime": 479404,
+        "length": 192,
+        "startPos": 51339560
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_B830E02A44C6E847C48F2FAEDA70B67B",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 493465,
+        "endtime": 493465,
+        "length": 208,
+        "startPos": 54986912
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_1B1ECD5A4F97719EECFE8C93E54D2C12",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 498121,
+        "endtime": 498121,
+        "length": 208,
+        "startPos": 54989576
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_9DB326724225990D993015A790C7B327",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 524496,
+        "endtime": 524496,
+        "length": 208,
+        "startPos": 56189552
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_3617C6B2446B44211ACB559DD117861C",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 524963,
+        "endtime": 524963,
+        "length": 208,
+        "startPos": 56192216
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_704600954DD0CD9FD69480A3528F4713",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 535316,
+        "endtime": 535316,
+        "length": 208,
+        "startPos": 56194880
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_A2D58D4A44F41B94AEDEB09EDF8910E8",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 575500,
+        "endtime": 575500,
+        "length": 208,
+        "startPos": 60812664
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_F06713754FB7182531F68D8AA17720B1",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 592306,
+        "endtime": 592306,
+        "length": 208,
+        "startPos": 61467168
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_31038F2C4DA2F665727F689F50E94095",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 598205,
+        "endtime": 598205,
+        "length": 208,
+        "startPos": 61469832
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_9B883FAB47E3034F5853309B3F771F31",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 601954,
+        "endtime": 601954,
+        "length": 208,
+        "startPos": 65384576
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_02B1E7E34534677589D79AA1DB9DC7BD",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 641270,
+        "endtime": 641270,
+        "length": 208,
+        "startPos": 68196200
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_723580C34600E02B36A5128593D35C16",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 641471,
+        "endtime": 641471,
+        "length": 208,
+        "startPos": 68198864
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_3867815746CF19677BFBFDB8B9B9AD3F",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 655850,
+        "endtime": 655850,
+        "length": 208,
+        "startPos": 68201528
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AEF878234A78EB05926FD8BEED62773A",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 671623,
+        "endtime": 671623,
+        "length": 208,
+        "startPos": 72763192
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_537E3EBC46518DD531AD478A074AD768",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 681054,
+        "endtime": 681054,
+        "length": 208,
+        "startPos": 74016736
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_8B0C906C432FCD2EDEE2BCAF87D5F080",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 730687,
+        "endtime": 730687,
+        "length": 208,
+        "startPos": 79375648
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AF60C0604435ECA7D0B3A1BAA2B37E8F",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 786521,
+        "endtime": 786521,
+        "length": 208,
+        "startPos": 86956064
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_681447A841DD5B89C8D2A9BC51894737",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 789665,
+        "endtime": 789665,
+        "length": 208,
+        "startPos": 86958728
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_2D1F90554CEB60F2E131738CDDDF2D2D",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 795486,
+        "endtime": 795486,
+        "length": 208,
+        "startPos": 86961392
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_3C61847A44A598779371F18EDD59A259",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 800589,
+        "endtime": 800589,
+        "length": 208,
+        "startPos": 88190232
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_211601F145C4F2B27191D9B6DC339C99",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 800897,
+        "endtime": 800897,
+        "length": 208,
+        "startPos": 88192896
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_666C78014C072F167DB64B8EBF2506AC",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 821293,
+        "endtime": 821293,
+        "length": 208,
+        "startPos": 89356840
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_7482FEC14E840385BB55B5B0EC545F15",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 823943,
+        "endtime": 823943,
+        "length": 208,
+        "startPos": 89359504
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_3D58CDA54BBF9A9FF8532AB7C22B7FA9",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 833033,
+        "endtime": 833033,
+        "length": 208,
+        "startPos": 89362168
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_B89FE7004228BFE79179F5ADD85C3C8E",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 926702,
+        "endtime": 926702,
+        "length": 208,
+        "startPos": 100691792
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_BA3853AA414ABF889CE26E8F1FF35361",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 940772,
+        "endtime": 940772,
+        "length": 208,
+        "startPos": 102176632
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_BF07886E4E5164D6C490E98B7DFC3AC8",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 958728,
+        "endtime": 958728,
+        "length": 208,
+        "startPos": 102179296
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_1A1A8E6348410D9068FFB6B6A70AB2DB",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 983514,
+        "endtime": 983514,
+        "length": 208,
+        "startPos": 108136352
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_5922BB7A4C1B49D5CE591681DC1435D7",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 1015576,
+        "endtime": 1015576,
+        "length": 208,
+        "startPos": 108955208
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_CA5850024BB3B069A321A39CA71C85BC",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 1054673,
+        "endtime": 1054673,
+        "length": 208,
+        "startPos": 114249608
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AthenaMatchStats",
+        "group": "AthenaReplayBrowserEvents",
+        "metadata": "AthenaMatchStats",
+        "startTime": 1242046,
+        "endtime": 1242046,
+        "length": 64,
+        "startPos": 132270976
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_AthenaMatchTeamStats",
+        "group": "AthenaReplayBrowserEvents",
+        "metadata": "AthenaMatchTeamStats",
+        "startTime": 1242083,
+        "endtime": 1242083,
+        "length": 16,
+        "startPos": 132272560
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_DD8A6AEB45606CB356126F8907844E56",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 1242083,
+        "endtime": 1242083,
+        "length": 208,
+        "startPos": 132273688
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_ReplayKey",
+        "group": "PlayerStateEncryptionKey",
+        "metadata": "PlayerStateEncryptionKey",
+        "startTime": 1296624,
+        "endtime": 1296624,
+        "length": 48,
+        "startPos": 137004384
+      },
+      {
+        "eventId": "UnsavedReplay-2022.12.04-21.44.33_C8CCDE6F42C1E5EA833A578ACE1B3535",
+        "group": "playerElim",
+        "metadata": "versionedEvent",
+        "startTime": 1285805,
+        "endtime": 1285805,
+        "length": 208,
+        "startPos": 137005768
+      }
+    ]
+  },
+  "events": [
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AdditionGFPEvent",
+      "group": "AdditionGFPEventGroup",
+      "metadata": "AdditionGFPEvent",
+      "startTime": 0,
+      "endtime": 0,
+      "length": 16,
+      "startPos": 5728
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_ADD68BE94D9C9F7B1E5DF6ACAED44FC7",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 35073,
+      "endtime": 35073,
+      "length": 208,
+      "startPos": 3919272,
+      "eliminated": "5885eaef3b4c486d9dfd6edbf464db7c",
+      "eliminator": "5885eaef3b4c486d9dfd6edbf464db7c",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_CBE565C84BF0A1FFD4ECAFA4C5D757ED",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 126504,
+      "endtime": 126504,
+      "length": 208,
+      "startPos": 17820896,
+      "eliminated": "152ccff8e7be41d9803577fd0d560b84",
+      "eliminator": "e22ad6641216472aa4d9c104f37b7824",
+      "gunType": "Pistol",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_6AC658924D7F8D15D5C2E99E4A4A105D",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 131274,
+      "endtime": 131274,
+      "length": 208,
+      "startPos": 17823560,
+      "eliminated": "9153dd1f45b641ff94dbb872c30e5b21",
+      "eliminator": "dc9f945b3a58401ca2dec8ee6f39f535",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_C75C85DA43A506BD884665963CF34F8D",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 132925,
+      "endtime": 132925,
+      "length": 208,
+      "startPos": 17826224,
+      "eliminated": "0e964fb52f9446e9af2c3da95a15013e",
+      "eliminator": "2847ccbbd3944f019026b7613f6cfa7c",
+      "gunType": "Pistol",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_7647C6634BFFC4D3964D7E872746B90F",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 133063,
+      "endtime": 133063,
+      "length": 208,
+      "startPos": 17828888,
+      "eliminated": "2e86c71783f74198903bd730e93f843f",
+      "eliminator": "88a90af4cfe5414fbe53cf0ab79d70b1",
+      "gunType": "RocketLauncher",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_DDE312B04CAF55C574C2338862BCDA66",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 135284,
+      "endtime": 135284,
+      "length": 208,
+      "startPos": 17831552,
+      "eliminated": "0658bc75605a43a588ce1157dfb0f58c",
+      "eliminator": "634311a416164074906752232c0dc6d2",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_9EF8D06444C593135D2DA0AE951B0966",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 137727,
+      "endtime": 137727,
+      "length": 208,
+      "startPos": 17834216,
+      "eliminated": "0b5c468ce9fa46ee83dbf5dbbb376a5c",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_EB3A9F3F4A397AF1E576B299727FF04E",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 138661,
+      "endtime": 138661,
+      "length": 208,
+      "startPos": 17836880,
+      "eliminated": "aaa1ed83e2ef44f58fff921d7157e7ec",
+      "eliminator": "f5564b83850c4d6aa6ce3fad1699de84",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_2F8EE4A74C2749CBBF0B16875836B786",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 138761,
+      "endtime": 138761,
+      "length": 208,
+      "startPos": 17839544,
+      "eliminated": "58a9dab4108d42f4baf7959bdb8c5cb6",
+      "eliminator": "6b57b785237e4b45aa82ab0d68d62f00",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_F7B55C444261975DAC8B648A7417DB74",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 147981,
+      "endtime": 147981,
+      "length": 208,
+      "startPos": 19475424,
+      "eliminated": "80e9cd8389fd447b849b55a83bf6b664",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_3819757F4A30D3494A5DBB9591332F79",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 152215,
+      "endtime": 152215,
+      "length": 208,
+      "startPos": 19478088,
+      "eliminated": "768126e6600f4709b4443ccddb5a2fe0",
+      "eliminator": "f74c0b444c7c48d6b532fbc88405a249",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_5D1496CE49F0529A7FD862899A9EBC02",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 155738,
+      "endtime": 155738,
+      "length": 208,
+      "startPos": 19480752,
+      "eliminated": "0e221aff60b54e758c2810ac35216cea",
+      "eliminator": "6e40968a473c495e878013803cb70610",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_F897D1D34C10E1083349FEA76B022735",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 156300,
+      "endtime": 156300,
+      "length": 208,
+      "startPos": 19483416,
+      "eliminated": "3bba8b91c08b4c50bc9896d5c282bc2a",
+      "eliminator": "c786dfc738a741e7be91fedc8277d8af",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_917E2ECE42877722F2E63B967C0674AD",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 156570,
+      "endtime": 156570,
+      "length": 208,
+      "startPos": 19486080,
+      "eliminated": "d89867320d06429fafa24d875e6c2b30",
+      "eliminator": "2088284b366649c1846b27ddb6dbbf6b",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_D486832E4CE567A49007A6BDD731F19A",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 159820,
+      "endtime": 159820,
+      "length": 208,
+      "startPos": 19488744,
+      "eliminated": "faf6065e5ab04929a060f803492bdf73",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_9C1172BF45E26869353B1692769E7902",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 165100,
+      "endtime": 165100,
+      "length": 208,
+      "startPos": 20773008,
+      "eliminated": "4374f05fcc7c4505a1fd0484aeb7cbd9",
+      "eliminator": "6b57b785237e4b45aa82ab0d68d62f00",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_995529AF4F75C8EF30DF10ACEC68D9F4",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 170740,
+      "endtime": 170740,
+      "length": 208,
+      "startPos": 20775672,
+      "eliminated": "f74c0b444c7c48d6b532fbc88405a249",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_DBF8D15749950157BC9E55A30709131E",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 175588,
+      "endtime": 175588,
+      "length": 208,
+      "startPos": 20778336,
+      "eliminated": "e4f1aa45ef664056b80a648ef9063402",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_80F65C824E79615FEBCB7EA1063EF4E3",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 177000,
+      "endtime": 177000,
+      "length": 208,
+      "startPos": 20781000,
+      "eliminated": "e8dd24880fd84189ae7ff6b113778954",
+      "eliminator": "fda90dfcf0a8412c8891754f1b53aae0",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_6AF52B1E4F8E1EE764CBED9E97BBC175",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 181380,
+      "endtime": 181380,
+      "length": 208,
+      "startPos": 24703544,
+      "eliminated": "22c474bcabf04aa7a121f97fc44edd2f",
+      "eliminator": "5636ddb57a9746b199c3bbada298ae4d",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_B02EBD2F4F1C6D0FFAB93F803D6BC6CE",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 183337,
+      "endtime": 183337,
+      "length": 208,
+      "startPos": 24706208,
+      "eliminated": "2a9389bbdceb4a1ca3cf1b6c6a77e8f0",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_ACDE5AB646216E3C7BE960847A65685F",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 190032,
+      "endtime": 190032,
+      "length": 208,
+      "startPos": 24708872,
+      "eliminated": "5c42410523ca4b3883101e53c8e94fd7",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_A12B6D0E4D5A5D64CF578BBB008B1D5E",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 193971,
+      "endtime": 193971,
+      "length": 208,
+      "startPos": 24711536,
+      "eliminated": "5636ddb57a9746b199c3bbada298ae4d",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_C40558CE4E15BA287E30CE8CCD23212A",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 195972,
+      "endtime": 195972,
+      "length": 208,
+      "startPos": 24714200,
+      "eliminated": "e3fde49fa75b4723bd00de5062cd3daf",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_B3EEF1594CEBC51DB5F7AC9519FC109F",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 196808,
+      "endtime": 196808,
+      "length": 208,
+      "startPos": 24716864,
+      "eliminated": "ccb430e033a643df82ad480ad97dd55a",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AD536912422B0DF3B6CD9DAC877E2305",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 200196,
+      "endtime": 200196,
+      "length": 208,
+      "startPos": 26005608,
+      "eliminated": "42c94fa54ed442afa02af35c67f3bd57",
+      "eliminator": "1c58dd02893041bcb01c9ec7cfd76f8e",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_612203654B01D9A522D21C8D01995F61",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 209936,
+      "endtime": 209936,
+      "length": 208,
+      "startPos": 26008272,
+      "eliminated": "dc8bdb93710c4745a0d62f7b9ba2c5e5",
+      "eliminator": "02c2535dcc9f485093e5fb2bb9d23e16",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_72DDAE134EF73712A81129B604BBA776",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 213172,
+      "endtime": 213172,
+      "length": 208,
+      "startPos": 26010936,
+      "eliminated": "afa1f17aba1b4bdaba53011d6e3683f0",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_2D07E02A403FEC89DA5F0AAD7478477A",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 218622,
+      "endtime": 218622,
+      "length": 208,
+      "startPos": 26013600,
+      "eliminated": "c786dfc738a741e7be91fedc8277d8af",
+      "eliminator": "88a90af4cfe5414fbe53cf0ab79d70b1",
+      "gunType": "Minigun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AEBA11B941BF660593B98CACE1140BC9",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 218921,
+      "endtime": 218921,
+      "length": 208,
+      "startPos": 26016264,
+      "eliminated": "933e67f5614c413d8bfd4c55d4b0085a",
+      "eliminator": "f5e954c9f9fe42c3b70dabfc06c64b6a",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_73E32A514156ACD59F7A91AB21F4BA0B",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 219761,
+      "endtime": 219761,
+      "length": 208,
+      "startPos": 26018928,
+      "eliminated": "c1326f8285e549c7903484e23812e764",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_01D0BA194E8F7A42A55B5D9FBDA2F4F2",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 224637,
+      "endtime": 224637,
+      "length": 208,
+      "startPos": 27227288,
+      "eliminated": "a5eb740432ef4b1a881827df4d197fab",
+      "eliminator": "a450d7d00fc74068a1296e9b9579c51a",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_123CD868406135820BC673B663B23F72",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 227237,
+      "endtime": 227237,
+      "length": 208,
+      "startPos": 27229952,
+      "eliminated": "e14dce94134643a18312ac0ede31d0dc",
+      "eliminator": "b58c86511ade4930ae5d38ae9e3482bf",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_F3670A414E33CE8E8FACD8B491519A21",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 228839,
+      "endtime": 228839,
+      "length": 208,
+      "startPos": 27232616,
+      "eliminated": "bac557c4d802438db5ee0b139313a44f",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_59F80A58454F62688DD79188852B6F32",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 242881,
+      "endtime": 242881,
+      "length": 208,
+      "startPos": 31281120,
+      "eliminated": "03c4e4a0afb545c0abb35f9ecf9b48d0",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_B9599BEB43713A0C1676D9B7E6C2C64D",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 251072,
+      "endtime": 251072,
+      "length": 208,
+      "startPos": 31283784,
+      "eliminated": "742d2b7388c94deab131fa1339b14a0d",
+      "eliminator": "b9e42d495c364c818006a8b653e5d417",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_4F880D3C44633C051C6C098A7AA561E1",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 252495,
+      "endtime": 252495,
+      "length": 208,
+      "startPos": 31286448,
+      "eliminated": "a1613a89a9bb4265b23b86f3a0e59d13",
+      "eliminator": "ce06a2a461fc4509b93995ab35d780a1",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_061EA1FB463FD050DBB9C894FE8115E0",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 262198,
+      "endtime": 262198,
+      "length": 208,
+      "startPos": 32492888,
+      "eliminated": "960861c89b6d4a708ba163882c1fef7f",
+      "eliminator": "f8a8697b85984b6cb22baf269ad6515d",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_1D86F3B0477B7B028F54958DA9C106DB",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 271247,
+      "endtime": 271247,
+      "length": 208,
+      "startPos": 32495552,
+      "eliminated": "15c21794431b4c478952c45306464f99",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AF8EC5A141A8253CBD4A43ABC21A8FDB",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 274787,
+      "endtime": 274787,
+      "length": 208,
+      "startPos": 32498216,
+      "eliminated": "b58c86511ade4930ae5d38ae9e3482bf",
+      "eliminator": "6b57b785237e4b45aa82ab0d68d62f00",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_417C2142485CC5FD5C4C418CAC178F86",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 283015,
+      "endtime": 283015,
+      "length": 208,
+      "startPos": 33712592,
+      "eliminated": "b222827c406c43208cee2fb5a07bda75",
+      "eliminator": "dc9f945b3a58401ca2dec8ee6f39f535",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AEDE8679468173D2CDB18090C159EE9F",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 283878,
+      "endtime": 283878,
+      "length": 208,
+      "startPos": 33715256,
+      "eliminated": "2088284b366649c1846b27ddb6dbbf6b",
+      "eliminator": "46ff311b53bc499db00b4d013d496339",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_6B8DAEDF442F25C9FAC4A98C05528BEB",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 294088,
+      "endtime": 294088,
+      "length": 208,
+      "startPos": 33717920,
+      "eliminated": "a3e20597c3094aedabee7da65cc17da8",
+      "eliminator": "ce06a2a461fc4509b93995ab35d780a1",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_0624222A47D879552EA37E91E00C3428",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 304014,
+      "endtime": 304014,
+      "length": 208,
+      "startPos": 37669784,
+      "eliminated": "0403b737a3a94054ae88475140323142",
+      "eliminator": "edc4782ab5b84f7782785af48af9f1b2",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_95483D0B4D9F38C2E2A3DCA3C24910BB",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 304080,
+      "endtime": 304080,
+      "length": 208,
+      "startPos": 37672448,
+      "eliminated": "c51ce2df68f34c84a3679a6ce0254fc3",
+      "eliminator": "b9e42d495c364c818006a8b653e5d417",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_9BDCE5194AB536C94E987EAC842B3AEA",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 304385,
+      "endtime": 304385,
+      "length": 208,
+      "startPos": 37675112,
+      "eliminated": "e62bb035c4d64a969f777f7732fc9e9f",
+      "eliminator": "852a78f820704aab91c6cc3512dd4b50",
+      "gunType": "Pistol",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_8503D21047BF60C59B0A28B57B946D89",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 307937,
+      "endtime": 307937,
+      "length": 208,
+      "startPos": 37677776,
+      "eliminated": "f5e954c9f9fe42c3b70dabfc06c64b6a",
+      "eliminator": "e22ad6641216472aa4d9c104f37b7824",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_14C0D338427817B682E7EAA175661BF6",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 326759,
+      "endtime": 326759,
+      "length": 208,
+      "startPos": 38898424,
+      "eliminated": "0fd948ac281d4f1bb8d937bfef7fd925",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_CB85A52843CA64883DA8BBB4C8825540",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 330097,
+      "endtime": 330097,
+      "length": 208,
+      "startPos": 38901088,
+      "eliminated": "8b2ee9cbc60443cdac5491c512efe173",
+      "eliminator": "aa9143bce6c54e43b23c3dcdd55e8d8e",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_ECA3C7754923DC19075A92A2A56F0ADF",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 333937,
+      "endtime": 333937,
+      "length": 208,
+      "startPos": 38903752,
+      "eliminated": "f5564b83850c4d6aa6ce3fad1699de84",
+      "eliminator": "2847ccbbd3944f019026b7613f6cfa7c",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_EFCF4D21424F5367F715CBABAF60F99F",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 343287,
+      "endtime": 343287,
+      "length": 208,
+      "startPos": 40008688,
+      "eliminated": "852a78f820704aab91c6cc3512dd4b50",
+      "eliminator": "d4221de40d484c308919b2a72db1fe29",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_E2AD9D4C40D849F614A6BEA1FA6D88A2",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 343831,
+      "endtime": 343831,
+      "length": 208,
+      "startPos": 40011352,
+      "eliminated": "f9d483227ab74e0687ac91b3c77734c5",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "MeleeAny",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_9C51A8924B465D6E26C007A79735FDEB",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 348681,
+      "endtime": 348681,
+      "length": 208,
+      "startPos": 40014016,
+      "eliminated": "88a90af4cfe5414fbe53cf0ab79d70b1",
+      "eliminator": "02c2535dcc9f485093e5fb2bb9d23e16",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_33FB3BF142DF3F49C49FFDAD38233B15",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 355121,
+      "endtime": 355121,
+      "length": 208,
+      "startPos": 40016680,
+      "eliminated": "2406785951164187a900fc74a37f6885",
+      "eliminator": "f8a8697b85984b6cb22baf269ad6515d",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_BA07E36D4D6838C449B282BEB23DC486",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 357004,
+      "endtime": 357004,
+      "length": 208,
+      "startPos": 40019344,
+      "eliminated": "65e2dce2173d4d1caffe5cdd4309f9cb",
+      "eliminator": "b79599b2246f4029b080b5da78ff5a88",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_5B99E21F4EE6E0D7B35F389442C2650C",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 363491,
+      "endtime": 363491,
+      "length": 208,
+      "startPos": 43901448,
+      "eliminated": "40b630357d344e0d83111ddab090026e",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": "MeleeAny",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_340AA6B54BBE72C40739CD9677CDE9B1",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 366903,
+      "endtime": 366903,
+      "length": 208,
+      "startPos": 43904112,
+      "eliminated": "31e9ab3ab86f4aee92a0922edec29ae9",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_29BAEDA84A57848C05D05A885752B521",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 387063,
+      "endtime": 387063,
+      "length": 208,
+      "startPos": 44879896,
+      "eliminated": "edc4782ab5b84f7782785af48af9f1b2",
+      "eliminator": "6b57b785237e4b45aa82ab0d68d62f00",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_C759FBEA42B8CDDAB5437DABBAFF8C4A",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 390905,
+      "endtime": 390905,
+      "length": 208,
+      "startPos": 44882560,
+      "eliminated": "04dc105dd16345c3b646f660f4fc4a07",
+      "eliminator": "e22ad6641216472aa4d9c104f37b7824",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_DE3CE37E40B0815DEDB383A4D387EF16",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 410126,
+      "endtime": 410126,
+      "length": 208,
+      "startPos": 45820712,
+      "eliminated": "1e6348c0070044bf9d7f3dae50407e9b",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_6D2ACE624D0971BD80670FA4CDA3F4BA",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 413667,
+      "endtime": 413667,
+      "length": 208,
+      "startPos": 45823376,
+      "eliminated": "732365d497a547509e54dc4d5f684462",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_380C5E7A454ABD7523E3398A2BCAFCB7",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 418914,
+      "endtime": 418914,
+      "length": 208,
+      "startPos": 45826040,
+      "eliminated": "46ff311b53bc499db00b4d013d496339",
+      "eliminator": "dc9f945b3a58401ca2dec8ee6f39f535",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_A45B7C7746059312AD4276B632B1A852",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 437324,
+      "endtime": 437324,
+      "length": 208,
+      "startPos": 49532400,
+      "eliminated": "fda90dfcf0a8412c8891754f1b53aae0",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_879BE23B4CE48CCA7E9787A7C49B71CB",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 454889,
+      "endtime": 454889,
+      "length": 208,
+      "startPos": 50414104,
+      "eliminated": "f4a1dd430618472e859b5ee74e2cf1d8",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "RocketLauncher",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_6BD99BE54F1CB93DCF81D38FCA86669A",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 478315,
+      "endtime": 478315,
+      "length": 208,
+      "startPos": 51336896,
+      "eliminated": "dc9f945b3a58401ca2dec8ee6f39f535",
+      "eliminator": "dc9f945b3a58401ca2dec8ee6f39f535",
+      "gunType": "RangedAny",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_A6B2B1A94005A3C61E7E64958B2E4950",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 479404,
+      "endtime": 479404,
+      "length": 192,
+      "startPos": 51339560,
+      "eliminated": "b79599b2246f4029b080b5da78ff5a88",
+      "eliminator": "bot",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_B830E02A44C6E847C48F2FAEDA70B67B",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 493465,
+      "endtime": 493465,
+      "length": 208,
+      "startPos": 54986912,
+      "eliminated": "93af44b599f84551b063516e99dab617",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_1B1ECD5A4F97719EECFE8C93E54D2C12",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 498121,
+      "endtime": 498121,
+      "length": 208,
+      "startPos": 54989576,
+      "eliminated": "6e40968a473c495e878013803cb70610",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_9DB326724225990D993015A790C7B327",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 524496,
+      "endtime": 524496,
+      "length": 208,
+      "startPos": 56189552,
+      "eliminated": "1c58dd02893041bcb01c9ec7cfd76f8e",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_3617C6B2446B44211ACB559DD117861C",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 524963,
+      "endtime": 524963,
+      "length": 208,
+      "startPos": 56192216,
+      "eliminated": "0904badfd4a84a3cb3c9a15bdac18be3",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_704600954DD0CD9FD69480A3528F4713",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 535316,
+      "endtime": 535316,
+      "length": 208,
+      "startPos": 56194880,
+      "eliminated": "d4ae2948cfa44f7db889ac99b53ff16e",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_A2D58D4A44F41B94AEDEB09EDF8910E8",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 575500,
+      "endtime": 575500,
+      "length": 208,
+      "startPos": 60812664,
+      "eliminated": "aa9143bce6c54e43b23c3dcdd55e8d8e",
+      "eliminator": "e117d2702b47437d9d4d28f5fb487260",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_F06713754FB7182531F68D8AA17720B1",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 592306,
+      "endtime": 592306,
+      "length": 208,
+      "startPos": 61467168,
+      "eliminated": "5345bcd00cae49a89823d688c1203c82",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_31038F2C4DA2F665727F689F50E94095",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 598205,
+      "endtime": 598205,
+      "length": 208,
+      "startPos": 61469832,
+      "eliminated": "9f914afab4e643259340e057377981b5",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_9B883FAB47E3034F5853309B3F771F31",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 601954,
+      "endtime": 601954,
+      "length": 208,
+      "startPos": 65384576,
+      "eliminated": "bcf6b91596c74f1bad0d6df2d948c1a1",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_02B1E7E34534677589D79AA1DB9DC7BD",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 641270,
+      "endtime": 641270,
+      "length": 208,
+      "startPos": 68196200,
+      "eliminated": "d7ec7ed1ce7b49c4bdfb22ecb144340e",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_723580C34600E02B36A5128593D35C16",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 641471,
+      "endtime": 641471,
+      "length": 208,
+      "startPos": 68198864,
+      "eliminated": "d227bd8eaec048469c69bc70225f9e24",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_3867815746CF19677BFBFDB8B9B9AD3F",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 655850,
+      "endtime": 655850,
+      "length": 208,
+      "startPos": 68201528,
+      "eliminated": "34ab73a572e54418823b9efa1d1548ef",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AEF878234A78EB05926FD8BEED62773A",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 671623,
+      "endtime": 671623,
+      "length": 208,
+      "startPos": 72763192,
+      "eliminated": "5aca7edb5a904b8c98fb8661184615fa",
+      "eliminator": "f8a8697b85984b6cb22baf269ad6515d",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_537E3EBC46518DD531AD478A074AD768",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 681054,
+      "endtime": 681054,
+      "length": 208,
+      "startPos": 74016736,
+      "eliminated": "e3ed6a8cf5ff4bb99d5c464c5cd0158e",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_8B0C906C432FCD2EDEE2BCAF87D5F080",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 730687,
+      "endtime": 730687,
+      "length": 208,
+      "startPos": 79375648,
+      "eliminated": "a32bc22bc5cc40d193a886b30247628d",
+      "eliminator": "8dbaeac041fc4f5a913733ffad7544ba",
+      "gunType": "Shotgun",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AF60C0604435ECA7D0B3A1BAA2B37E8F",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 786521,
+      "endtime": 786521,
+      "length": 208,
+      "startPos": 86956064,
+      "eliminated": "2847ccbbd3944f019026b7613f6cfa7c",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_681447A841DD5B89C8D2A9BC51894737",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 789665,
+      "endtime": 789665,
+      "length": 208,
+      "startPos": 86958728,
+      "eliminated": "02c2535dcc9f485093e5fb2bb9d23e16",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_2D1F90554CEB60F2E131738CDDDF2D2D",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 795486,
+      "endtime": 795486,
+      "length": 208,
+      "startPos": 86961392,
+      "eliminated": "e117d2702b47437d9d4d28f5fb487260",
+      "eliminator": "b9e42d495c364c818006a8b653e5d417",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_3C61847A44A598779371F18EDD59A259",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 800589,
+      "endtime": 800589,
+      "length": 208,
+      "startPos": 88190232,
+      "eliminated": "ce06a2a461fc4509b93995ab35d780a1",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": "MeleeAny",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_211601F145C4F2B27191D9B6DC339C99",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 800897,
+      "endtime": 800897,
+      "length": 208,
+      "startPos": 88192896,
+      "eliminated": "d4221de40d484c308919b2a72db1fe29",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_666C78014C072F167DB64B8EBF2506AC",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 821293,
+      "endtime": 821293,
+      "length": 208,
+      "startPos": 89356840,
+      "eliminated": "d7283d65714c41f88ad026c351db259c",
+      "eliminator": "39e354576ac141959bea0561bb57a939",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_7482FEC14E840385BB55B5B0EC545F15",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 823943,
+      "endtime": 823943,
+      "length": 208,
+      "startPos": 89359504,
+      "eliminated": "a450d7d00fc74068a1296e9b9579c51a",
+      "eliminator": "b9e42d495c364c818006a8b653e5d417",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_3D58CDA54BBF9A9FF8532AB7C22B7FA9",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 833033,
+      "endtime": 833033,
+      "length": 208,
+      "startPos": 89362168,
+      "eliminated": "8dbaeac041fc4f5a913733ffad7544ba",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_B89FE7004228BFE79179F5ADD85C3C8E",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 926702,
+      "endtime": 926702,
+      "length": 208,
+      "startPos": 100691792,
+      "eliminated": "f8a8697b85984b6cb22baf269ad6515d",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_BA3853AA414ABF889CE26E8F1FF35361",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 940772,
+      "endtime": 940772,
+      "length": 208,
+      "startPos": 102176632,
+      "eliminated": "39e354576ac141959bea0561bb57a939",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_BF07886E4E5164D6C490E98B7DFC3AC8",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 958728,
+      "endtime": 958728,
+      "length": 208,
+      "startPos": 102179296,
+      "eliminated": "f74698deffa14d0c95051072298cc1ea",
+      "eliminator": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_1A1A8E6348410D9068FFB6B6A70AB2DB",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 983514,
+      "endtime": 983514,
+      "length": 208,
+      "startPos": 108136352,
+      "eliminated": "b9e42d495c364c818006a8b653e5d417",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "Rifle",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_5922BB7A4C1B49D5CE591681DC1435D7",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 1015576,
+      "endtime": 1015576,
+      "length": 208,
+      "startPos": 108955208,
+      "eliminated": "6b57b785237e4b45aa82ab0d68d62f00",
+      "eliminator": "634311a416164074906752232c0dc6d2",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_CA5850024BB3B069A321A39CA71C85BC",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 1054673,
+      "endtime": 1054673,
+      "length": 208,
+      "startPos": 114249608,
+      "eliminated": "8c0c3f6f13e848e6990cd46cbd96d5de",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "SMG",
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AthenaMatchStats",
+      "group": "AthenaReplayBrowserEvents",
+      "metadata": "AthenaMatchStats",
+      "startTime": 1242046,
+      "endtime": 1242046,
+      "length": 64,
+      "startPos": 132270976,
+      "accuracy": 0.29931971430778503,
+      "assists": 0,
+      "eliminations": 2,
+      "weaponDamage": 1030,
+      "otherDamage": 148,
+      "revives": 0,
+      "damageTaken": 733,
+      "damageToStructures": 4619,
+      "materialsGathered": 0,
+      "materialsUsed": 0,
+      "totalTraveled": 443092,
+      "damageToPlayers": 1178
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_AthenaMatchTeamStats",
+      "group": "AthenaReplayBrowserEvents",
+      "metadata": "AthenaMatchTeamStats",
+      "startTime": 1242083,
+      "endtime": 1242083,
+      "length": 16,
+      "startPos": 132272560,
+      "something": 0,
+      "position": 3,
+      "totalPlayers": 98
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_DD8A6AEB45606CB356126F8907844E56",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 1242083,
+      "endtime": 1242083,
+      "length": 208,
+      "startPos": 132273688,
+      "eliminated": "634311a416164074906752232c0dc6d2",
+      "eliminator": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "gunType": 50,
+      "knocked": false
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_ReplayKey",
+      "group": "PlayerStateEncryptionKey",
+      "metadata": "PlayerStateEncryptionKey",
+      "startTime": 1296624,
+      "endtime": 1296624,
+      "length": 48,
+      "startPos": 137004384
+    },
+    {
+      "eventId": "UnsavedReplay-2022.12.04-21.44.33_C8CCDE6F42C1E5EA833A578ACE1B3535",
+      "group": "playerElim",
+      "metadata": "versionedEvent",
+      "startTime": 1285805,
+      "endtime": 1285805,
+      "length": 208,
+      "startPos": 137005768,
+      "eliminated": "aefba9a6c8734130ae43b1c4e44e3d6f",
+      "eliminator": "fe1a3c7a0aa54f22966c4196349bd498",
+      "gunType": "None",
+      "knocked": false
+    }
+  ],
+  "gameData": {
+    "safeZones": [
+      {
+        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
+        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
+        "NextRadius": 80000,
+        "NextCenter": {
+          "x": 42710.21,
+          "y": -4512.75,
+          "z": 10446
+        },
+        "MegaStormDelayTimeBeforeDestruction": 0.75,
+        "SafeZoneStartShrinkTime": 391.36798095703125,
+        "SafeZoneFinishShrinkTime": 601.3679809570312,
+        "Radius": 185000
+      },
+      {
+        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
+        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
+        "NextRadius": 40000,
+        "NextCenter": {
+          "x": 45939.28,
+          "y": 8794.08,
+          "z": 10446
+        },
+        "SafeZoneStartShrinkTime": 721.373291015625,
+        "SafeZoneFinishShrinkTime": 841.373291015625,
+        "Radius": 80000
+      },
+      {
+        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
+        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
+        "NextRadius": 20000,
+        "NextCenter": {
+          "x": 29845.57,
+          "y": 4746.91,
+          "z": 10446
+        },
+        "SafeZoneStartShrinkTime": 931.3798217773438,
+        "SafeZoneFinishShrinkTime": 1021.3798217773438,
+        "Radius": 40000
+      },
+      {
+        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
+        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
+        "NextRadius": 10000,
+        "NextCenter": {
+          "x": 35240.47,
+          "y": 8482.24,
+          "z": 10446
+        },
+        "SafeZoneStartShrinkTime": 1101.3941650390625,
+        "SafeZoneFinishShrinkTime": 1171.3941650390625,
+        "Radius": 20000
+      },
+      {
+        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
+        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
+        "NextRadius": 5000,
+        "NextCenter": {
+          "x": 36244.23,
+          "y": 6077.02,
+          "z": 10446
+        },
+        "SafeZoneStartShrinkTime": 1221.4232177734375,
+        "SafeZoneFinishShrinkTime": 1281.4232177734375,
+        "Radius": 10000
+      },
+      {
+        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
+        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
+        "NextRadius": 2500,
+        "NextCenter": {
+          "x": 37979.94,
+          "y": 6752.88,
+          "z": 10446
+        },
+        "SafeZoneStartShrinkTime": 1311.4344482421875,
+        "SafeZoneFinishShrinkTime": 1371.4344482421875,
+        "Radius": 5000
+      }
+    ],
+    "players": [
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Недоброеутро",
+        "Place": 51
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "StarryGolds",
+        "Place": 73
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "MemoryGobbler",
+        "Place": 79
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "JollyGoat46",
+        "Place": 81
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "تويست1",
+        "KillScore": 1,
+        "Place": 32
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Çıtırsız Kemik",
+        "Place": 80
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "TermiteMuscles",
+        "Place": 49
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "SpaghettiCode77",
+        "Place": 66
+      },
+      {
+        "UniqueId": "6b57b785237e4b45aa82ab0d68d62f00",
+        "PlayerNamePrivate": "pay me 50K lukas",
+        "KillScore": 4,
+        "Place": 5
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Riftmage54",
+        "Place": 91
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " RoyaleKing60953",
+        "Place": 30
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "BreakerBreaker58",
+        "Place": 55
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "GlassCannister",
+        "Place": 86
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " gingerbunny125",
+        "KillScore": 1,
+        "Place": 60
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " ilGattopardo7387",
+        "Place": 62
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " ErGabbedano95",
+        "Place": 22
+      },
+      {
+        "UniqueId": "dc9f945b3a58401ca2dec8ee6f39f535",
+        "PlayerNamePrivate": "ChaOs_111",
+        "KillScore": 3,
+        "Place": 35
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "ТукСмеСамоХайвера",
+        "Place": 95
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " CKiLeLionMtnt",
+        "Place": 61
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "WildCactusBob",
+        "Place": 52
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "OblongWidget",
+        "KillScore": 1,
+        "Place": 27
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "MsFroggy123",
+        "Place": 74
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "APeelySmoothie",
+        "Place": 12
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "BestDoggo83",
+        "Place": 89
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " pamancotu",
+        "Place": 25
+      },
+      {
+        "UniqueId": "2088284b366649c1846b27ddb6dbbf6b",
+        "PlayerNamePrivate": "DrStrange_92",
+        "KillScore": 1,
+        "Place": 58
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "PotsNPans39",
+        "Place": 88
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "CleverPanda91",
+        "KillScore": 1,
+        "Place": 15
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Angelmeisterin",
+        "Place": 46
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "0mn1v0r378",
+        "Place": 68
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "AllTheCandy",
+        "Place": 67
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "BoxOfGoblins",
+        "Place": 92
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "DoublePumpkin78",
+        "Place": 20
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " AplastaBravas",
+        "Place": 39
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "ДавайДосвидания1",
+        "Place": 45
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "MightySobek",
+        "KillScore": 2,
+        "Place": 13
+      },
+      {
+        "UniqueId": "f5564b83850c4d6aa6ce3fad1699de84",
+        "PlayerNamePrivate": "tengobuonopc",
+        "KillScore": 1,
+        "Place": 50
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "LostYeti57",
+        "Place": 75
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Ч0ткий",
+        "Place": 96
+      },
+      {
+        "UniqueId": "8c0c3f6f13e848e6990cd46cbd96d5de",
+        "PlayerNamePrivate": "Krime_BBM",
+        "KillScore": 10,
+        "Place": 4
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "OddComplex85",
+        "KillScore": 2,
+        "Place": 47
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " Sarabat92790",
+        "Place": 7
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "IHaveFullMetal",
+        "KillScore": 1,
+        "Place": 11
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " liroj_drzemkins",
+        "KillScore": 1,
+        "Place": 71
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "SLUGshot65",
+        "Place": 64
+      },
+      {
+        "PlayerNamePrivate": ""
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " ParmesanPeyniri1",
+        "Place": 85
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " Martittaaa95541",
+        "Place": 90
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Monkeyking17",
+        "Place": 24
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "BraunyBanana",
+        "Place": 65
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " papyonlupenguen9",
+        "Place": 44
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " dante_killer13",
+        "Place": 98
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "RoyaleCorral",
+        "Place": 33
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " SirSkillaLot10694",
+        "Place": 70
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Caveman59",
+        "KillScore": 1,
+        "Place": 53
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Mayonnaise48",
+        "Place": 26
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "BlipBlap53",
+        "Place": 59
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "PopcornSalt3",
+        "Place": 78
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "AthenaOrApollo",
+        "Place": 40
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "ForkAndKnife17",
+        "KillScore": 1,
+        "Place": 34
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " pineappleghost777",
+        "Place": 54
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Hiveminder97",
+        "KillScore": 2,
+        "Place": 16
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "جون1",
+        "Place": 28
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Gearhead46",
+        "KillScore": 1,
+        "Place": 48
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "WeekendWarrior81",
+        "Place": 57
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "SeñorFiesta60631",
+        "Place": 63
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " KroissantFatal",
+        "KillScore": 1,
+        "Place": 77
+      },
+      {
+        "UniqueId": "c1326f8285e549c7903484e23812e764",
+        "PlayerNamePrivate": "koldoksor77",
+        "Place": 69
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " SPAL_2019",
+        "Place": 36
+      },
+      {
+        "UniqueId": "b9e42d495c364c818006a8b653e5d417",
+        "PlayerNamePrivate": "mibbaz",
+        "KillScore": 4,
+        "Place": 6
+      },
+      {
+        "UniqueId": "fe1a3c7a0aa54f22966c4196349bd498",
+        "PlayerNamePrivate": "NarcoIII",
+        "KillScore": 10,
+        "Place": 1
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " LegolasAmoreMio",
+        "KillScore": 1,
+        "Place": 29
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Той_що_греблі_рве",
+        "Place": 93
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " Docker13000",
+        "Place": 19
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Bubbles41",
+        "Place": 41
+      },
+      {
+        "UniqueId": "a32bc22bc5cc40d193a886b30247628d",
+        "PlayerNamePrivate": "Theandp",
+        "Place": 18
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "ChillMono",
+        "Place": 82
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "GamerGreat30",
+        "KillScore": 1,
+        "Place": 14
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "InfinityPigeon66",
+        "Place": 84
+      },
+      {
+        "UniqueId": "634311a416164074906752232c0dc6d2",
+        "PlayerNamePrivate": "xdx2k7",
+        "KillScore": 2,
+        "Place": 3
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " SniperzX18623",
+        "Place": 72
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "SteelGoose18",
+        "Place": 56
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " SchockerZocker01",
+        "Place": 21
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "SoggyCookie26",
+        "Place": 76
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": " LordHamburguesa2",
+        "Place": 23
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "TinyMoose50",
+        "Place": 43
+      },
+      {
+        "UniqueId": "f74c0b444c7c48d6b532fbc88405a249",
+        "PlayerNamePrivate": "NastyaGritsay",
+        "KillScore": 1,
+        "Place": 83
+      },
+      {
+        "UniqueId": "8dbaeac041fc4f5a913733ffad7544ba",
+        "PlayerNamePrivate": "thommi_Gasp",
+        "KillScore": 10,
+        "Place": 10
+      },
+      {
+        "UniqueId": "2847ccbbd3944f019026b7613f6cfa7c",
+        "PlayerNamePrivate": "Yogurt_18",
+        "KillScore": 2,
+        "Place": 17
+      },
+      {
+        "UniqueId": "9153dd1f45b641ff94dbb872c30e5b21",
+        "PlayerNamePrivate": "BattelBeef",
+        "Place": 97
+      },
+      {
+        "UniqueId": "d89867320d06429fafa24d875e6c2b30",
+        "PlayerNamePrivate": "art_master1",
+        "Place": 87
+      },
+      {
+        "UniqueId": "fda90dfcf0a8412c8891754f1b53aae0",
+        "PlayerNamePrivate": "ghostlostboy",
+        "KillScore": 1,
+        "Place": 37
+      },
+      {
+        "UniqueId": "f8a8697b85984b6cb22baf269ad6515d",
+        "PlayerNamePrivate": "Bad Wolf 73",
+        "KillScore": 3,
+        "Place": 9
+      },
+      {
+        "UniqueId": "aefba9a6c8734130ae43b1c4e44e3d6f",
+        "PlayerNamePrivate": "paddy230402",
+        "KillScore": 8,
+        "Place": 2
+      },
+      {
+        "UniqueId": "39e354576ac141959bea0561bb57a939",
+        "PlayerNamePrivate": "Lowe060912",
+        "KillScore": 11,
+        "Place": 8
+      },
+      {
+        "UniqueId": "0658bc75605a43a588ce1157dfb0f58c",
+        "PlayerNamePrivate": "BobiFromBelgrade",
+        "Place": 94
+      },
+      {
+        "UniqueId": "edc4782ab5b84f7782785af48af9f1b2",
+        "PlayerNamePrivate": "Gabbergirl_02",
+        "KillScore": 1,
+        "Place": 42
+      },
+      {
+        "UniqueId": "5885eaef3b4c486d9dfd6edbf464db7c",
+        "PlayerNamePrivate": "Dominik9057",
+        "Place": 99
+      },
+      {
+        "UniqueId": "46ff311b53bc499db00b4d013d496339",
+        "PlayerNamePrivate": "eduardelephant04",
+        "KillScore": 1,
+        "Place": 38
+      },
+      {
+        "UniqueId": "e22ad6641216472aa4d9c104f37b7824",
+        "PlayerNamePrivate": "greak_aim",
+        "KillScore": 3,
+        "Place": 31
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Prinzessin Felicity Fisch"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Schrottritterin Jules"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Neymar Jr."
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Surrr Burger"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Wildcard"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Schneeherz"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Aura"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Omega-Ritter"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Knochenwespe"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Raptorian der Tapfere"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Joni die Rote"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Sonnenblume"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Helsie"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Der zeitlose Champion"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Gefrorenes Fischstäbchen"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Eisige rote Ritterin"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "IO-Wache"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Eindringling"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Wache der Sieben",
+        "KillScore": 1
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "SHADOW-Handlanger"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "GHOST-Handlanger"
+      },
+      {
+        "UniqueId": "27c3f69c379c489bb08e626fa31361bb",
+        "PlayerNamePrivate": "miroxína26"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Knallerkalle"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Schlürf-Patronella"
+      },
+      {
+        "bIsABot": true,
+        "PlayerNamePrivate": "Dummy"
+      }
+    ]
+  },
+  "mapData": {
+    "slurptruck": []
+  }
+}
