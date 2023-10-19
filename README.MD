@@ -6,6 +6,7 @@ fortnite replays parser for nodejs using [npm i fortnite-replay-parser] (https:/
 
 ## install
 ```
+git clone https://github.com/xdeltax/FortniteReplayParser.NodeJS.git
 npm i
 ```
 
