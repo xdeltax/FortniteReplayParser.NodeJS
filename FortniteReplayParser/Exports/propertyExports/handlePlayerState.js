@@ -6,6 +6,8 @@ const replayParser = require('fortnite-replay-parser');
 const handlePlayerState = ({ chIndex, data, states, result }) => {
   let playerData = states.players[chIndex];
 
+  //console.log("handlePlayerState playerData", playerData)
+
   if (!playerData) {
     playerData = {};
     states.players[chIndex] = playerData;
@@ -17,13 +19,13 @@ const handlePlayerState = ({ chIndex, data, states, result }) => {
       playerData[name] = val;
     }
   }
-
+  
   updateProperty('bIsABot', data.bIsABot);
-  updateProperty('UniqueId', data.UniqueId);
+  updateProperty('UniqueID', data.UniqueID);
   updateProperty('KillScore', data.KillScore);
   updateProperty('PlayerNamePrivate', data.PlayerNamePrivate);
   updateProperty('Place', data.Place);
-  //updateProperty('deathCause', data.deathCause);
+  //updateProperty('deathCause', data.deathCause);  
 	
 	//console.log(data)
   if (!playerData.bIsABot && data.PlayerNamePrivate) {

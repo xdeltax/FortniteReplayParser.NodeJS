@@ -71,11 +71,13 @@ stdin.on('data', async (key) => { // on any data into stdin
     console.log(" ");
     printInfo();
   }
+	// reprint last decoding: compact
   if (key === "c" || key === "C") {
     //console.log("KEY: ", key)
     console.log(" ");
     syncPrintReplay(_GLOBAL_replayDataJSON, true); // print to console
   }
+	// reprint last decoding: extended
   if (key === "f" || key === "F") {
     //console.log("KEY: ", key)
     console.log(" ");
@@ -239,7 +241,7 @@ async function asyncParseReplay(filename) {
     	}
     	const _unused_decodeConfig = {
     		parseLevel: 10,
-    		debug: false,
+    		debug: true,
         parseEvents: true,
         parsePackets:true,
     	}
@@ -301,7 +303,7 @@ function syncComputeReplay(replayDataJSON) {
 
 
   	//////////////////////////////////////////////////////////////
-    // EVENTS: all killes in the game + some game-stats
+    // EVENTS: all kills in the game + some game-stats
   	obj.killfeed = [];
   	obj.gamedata = {
   		guid: null,
@@ -416,12 +418,13 @@ function syncComputeReplay(replayDataJSON) {
   	// PLAYERS @ GAMEDATA
   	obj.actors = []
   	let realPlayerCount = 0;
+  	let botPlayerCount = 0;
+  	let npcCount = 0;
   	players.forEach(player => {
-  	  //console.log(player)
   		// destructure
   		const {
-  			bIsABot,  					// bot+npc: true
-        UniqueId, 					// real: "f01afccdf1e846f780531e60df2b8df1"
+  			bIsABot,  					// bot+npc: true; real: undefined
+        // removed in new parser-version: UniqueId, 					// real: "f01afccdf1e846f780531e60df2b8df1"; bot: undefined
   			PlayerNamePrivate, 	// real+bot: "xdx2k7" "Wache der Sieben"
   			KillScore, 					// real+bot+npc: 4
   			Place, 							// real+bot: 63
@@ -429,11 +432,18 @@ function syncComputeReplay(replayDataJSON) {
   			//bIsSkydivingFromBus,// real+bot: true
   		} = player || {}
 
+			const name  = (PlayerNamePrivate || "").trim();
+			const isBot = bIsABot == true && Place >= 0;
+			const isNpc = bIsABot == true && Place == undefined;
+			const isReal= !isBot && !isNpc;
 
   		// new array-element
   		const newE = {
-  			id				: UniqueId || "",
-  			name			: (PlayerNamePrivate||"").trim(),
+  			//removed in new parser-version: id				: UniqueId || "",
+  			name,
+				isBot,
+				isNpc,
+				isReal,
   			isABot		: bIsABot || false,
   			placement	: Place || null,
   			kills			: KillScore || 0,
@@ -444,15 +454,17 @@ function syncComputeReplay(replayDataJSON) {
   		}
 
   		//console.log(newElem)
-  		if (newE.isABot === false && newE.name && newE.id.length>0) {
-  			realPlayerCount++;
-  		}
+  		if (isReal) { realPlayerCount++; } // (newE.isABot === false && newE.name && newE.id.length > 0) {
+			if (isBot)  { botPlayerCount++; }
+			if (isNpc)  { npcCount++; }
+  			
+  	  //console.log("PLAYER::", player, newE)
 
   		obj.actors.push(newE);
 
       // identify replay owner
       if (!bIsABot && Place && obj.replayowner.placement && Place === obj.replayowner.placement) {
-        obj.replayowner.id = UniqueId;
+        //removed in new parser-version: obj.replayowner.id = UniqueId;
         obj.replayowner.name = PlayerNamePrivate;
         obj.replayowner.link = newE;
         //replayowner.deathCause = DeathCause;
@@ -483,6 +495,10 @@ function syncComputeReplay(replayDataJSON) {
   	obj.gamedata.realPlayers = realPlayerCount;
   	obj.gamedata.botPlayers  = obj.gamedata.totalPlayers - obj.gamedata.realPlayers;
   	obj.gamedata.npcPlayers  = obj.gamedata.totalActors - obj.gamedata.totalPlayers;
+
+		//console.log("realPlayers: ", realPlayerCount)
+		//console.log("botPlayers: ", botPlayerCount, obj.gamedata.botPlayers)
+		//console.log("NPCs: ", npcCount, obj.gamedata.npcPlayers)
 
     obj.gamedata.guid  = Guid;
   	obj.gamedata.major = Major;
@@ -580,8 +596,9 @@ function syncPrintReplay(replayDataJSON, showCompact) {
     	// sort array by placement
     	obj.actors.forEach((e) => {
     		if (e.placement) {
-    			const strPlayerID = (e.isABot===true) ? "AI                              " : e.id
-    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills} kills${e.kills<10?" ":""}  ${strPlayerID} (${e.name})`)
+    			//const strPlayerID = (e.isABot===true) ? "AI                              " : e.id
+    			const strPlayerID = (e.isBot===true) ? "AI   " : "HUMAN";
+    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills} kills${e.kills<10?" ":""}  ${strPlayerID} ${e.name}`)
 
     			// got killed by ...
           if (e.killedBy) {
@@ -645,8 +662,9 @@ function syncPrintReplay(replayDataJSON, showCompact) {
     	obj.actors.sort(function (a, b) { return b.placement - a.placement });
     	obj.actors.forEach((e) => {
     		if (e.placement) {
-    			const strPlayerID = (e.isABot===true) ? "AI                              " : e.id
-    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills<10?" ":""}${e.kills} kills ${strPlayerID} (${e.name})`)
+    			//const strPlayerID = (e.isABot===true) ? "AI                              " : e.id
+    			const strPlayerID = (e.isBot===true) ? "AI   " : "HUMAN"
+    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills<10?" ":""}${e.kills} kills ${strPlayerID} ${e.name}`)
     		}
     	});
     }
@@ -656,8 +674,8 @@ function syncPrintReplay(replayDataJSON, showCompact) {
   	//console.log("REPLAY-OWNER");
   	//console.log(replayowner);
   	with (obj.replayowner) {
-      console.log(`  OWNER ${name} ${id} ${placement}.Place, Damage ${damageToPlayers} Given / ${damageFromPlayers} Received`);
-      console.log(`        ${placement}.Place, ${kills} Kills, ${assists} Assists, ${revives} Revives, Accuracy: ${(accuracy * 100).toFixed(1)}%`);
+      console.log(`  OWNER ${name} ${placement}.Place, Damage ${damageToPlayers} Given / ${damageFromPlayers} Received`);
+      console.log(`        ${kills} Kills, ${assists} Assists, ${revives} Revives, Accuracy: ${(accuracy * 100).toFixed(1)}%`);
       if (obj.replayowner.hasOwnProperty("link")) {
         if (link.killedBy) {
           const strKiller = (link.killedBy.killer === link.killedBy.killed) ? "yourself                        " : link.killedBy.killer + " (" + link.killedBy.name + ")";
