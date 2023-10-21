@@ -22,6 +22,7 @@ const handlePlayerState = ({ chIndex, data, states, result }) => {
   
   updateProperty('bIsABot', data.bIsABot);
   updateProperty('UniqueID', data.UniqueID);
+  updateProperty('UniqueId', data.UniqueId);
   updateProperty('KillScore', data.KillScore);
   updateProperty('PlayerNamePrivate', data.PlayerNamePrivate);
   updateProperty('Place', data.Place);

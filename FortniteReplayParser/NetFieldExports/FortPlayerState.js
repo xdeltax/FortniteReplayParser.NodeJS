@@ -12,6 +12,11 @@ module.exports = {
   exportName: 'players',
   exportType: 'array',
   properties: {
+    UniqueID: {
+      name: 'UniqueID',
+      parseFunction: 'readNetId',
+      parseType: 'default',
+    },
     UniqueId: {
       name: 'UniqueId',
       parseFunction: 'readNetId',

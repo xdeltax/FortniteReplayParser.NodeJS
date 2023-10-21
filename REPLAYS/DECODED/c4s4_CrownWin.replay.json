@@ -2946,126 +2946,6 @@
     }
   ],
   "gameData": {
-    "safeZones": [
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 120000,
-        "NextCenter": {
-          "x": 24823.1,
-          "y": 16770.81,
-          "z": 10446
-        },
-        "MegaStormDelayTimeBeforeDestruction": 0.75,
-        "SafeZoneStartShrinkTime": 407.1258544921875,
-        "SafeZoneFinishShrinkTime": 497.1258544921875,
-        "Radius": 185000
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 95000,
-        "NextCenter": {
-          "x": 43438.11,
-          "y": 32257.18,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 587.1557006835938,
-        "SafeZoneFinishShrinkTime": 677.1557006835938,
-        "Radius": 120000
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 70000,
-        "NextCenter": {
-          "x": 63176.86,
-          "y": 46996.19,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 767.1834106445312,
-        "SafeZoneFinishShrinkTime": 857.1834106445312,
-        "Radius": 95000
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 55000,
-        "NextCenter": {
-          "x": 72929.08,
-          "y": 52412.69,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 947.2141723632812,
-        "SafeZoneFinishShrinkTime": 1037.214111328125,
-        "Radius": 70000
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 32500,
-        "NextCenter": {
-          "x": 76105.72,
-          "y": 40716.59,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 1097.2452392578125,
-        "SafeZoneFinishShrinkTime": 1157.2452392578125,
-        "Radius": 55000
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 20000,
-        "NextCenter": {
-          "x": 44265.61,
-          "y": 34200.68,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 1217.26123046875,
-        "SafeZoneFinishShrinkTime": 1277.26123046875,
-        "Radius": 32500
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 10000,
-        "NextCenter": {
-          "x": 24494.27,
-          "y": 37216.3,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 1337.28662109375,
-        "SafeZoneFinishShrinkTime": 1397.28662109375,
-        "Radius": 20000
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 5000,
-        "NextCenter": {
-          "x": 12414.4,
-          "y": 46108.81,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 1437.303466796875,
-        "SafeZoneFinishShrinkTime": 1492.303466796875,
-        "Radius": 10000
-      },
-      {
-        "type": "SafeZoneIndicator.SafeZoneIndicator_C",
-        "pathName": "/Game/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C",
-        "NextRadius": 2500,
-        "NextCenter": {
-          "x": 19816.78,
-          "y": 55553.64,
-          "z": 10446
-        },
-        "SafeZoneStartShrinkTime": 1517.32861328125,
-        "SafeZoneFinishShrinkTime": 1572.32861328125,
-        "Radius": 5000
-      }
-    ],
     "players": [
       {
         "bIsABot": true,
@@ -3074,16 +2954,19 @@
         "Place": 69
       },
       {
+        "UniqueID": "607cfb88d23e4c8aa0ae98fad0761909",
         "PlayerNamePrivate": "Giuse166",
         "KillScore": 9,
         "Place": 24
       },
       {
+        "UniqueID": "07df6f6831f54d3e87d83cc38de0185d",
         "PlayerNamePrivate": "Chesterdex88",
         "KillScore": 1,
         "Place": 44
       },
       {
+        "UniqueID": "932dbedbf90c41eea18a39fa8f487341",
         "PlayerNamePrivate": "Cerbero__95",
         "Place": 88
       },
@@ -3093,6 +2976,7 @@
         "Place": 17
       },
       {
+        "UniqueID": "0afab68939224200963a952f2a4f06ca",
         "PlayerNamePrivate": "Iwet_90_CZE",
         "Place": 47
       },
@@ -3109,6 +2993,7 @@
         "Place": 22
       },
       {
+        "UniqueID": "78126d5ff30847b3b25ebb1031229f3a",
         "PlayerNamePrivate": "Zloy__Ublyudok",
         "Place": 90
       },
@@ -3155,6 +3040,7 @@
         "Place": 39
       },
       {
+        "UniqueID": "dc77087ebbc3444482a2e66e0cbb61d1",
         "PlayerNamePrivate": "fifikman2010283",
         "KillScore": 7,
         "Place": 20
@@ -3165,6 +3051,7 @@
         "Place": 54
       },
       {
+        "UniqueID": "499208f3942e413d8b79c5a7ad2c7c73",
         "PlayerNamePrivate": "gryzzli93",
         "KillScore": 3,
         "Place": 5
@@ -3175,6 +3062,7 @@
         "Place": 77
       },
       {
+        "UniqueID": "b7ef2ab4f9eb4e3da0a2c92005175bbd",
         "PlayerNamePrivate": "Silxan.",
         "Place": 95
       },
@@ -3182,10 +3070,12 @@
         "PlayerNamePrivate": ""
       },
       {
+        "UniqueID": "eb2ee1f3a63d4fe48c87cb91882d4ec5",
         "PlayerNamePrivate": "BIaxcheat",
         "Place": 99
       },
       {
+        "UniqueID": "4320b0b74eba4d43b70805a533395404",
         "PlayerNamePrivate": "LIL DOG GUSTAW",
         "Place": 96
       },
@@ -3195,11 +3085,13 @@
         "Place": 51
       },
       {
+        "UniqueID": "079bcaab80504132a508d0b883b0213c",
         "PlayerNamePrivate": "kolumbiaaa",
         "KillScore": 2,
         "Place": 78
       },
       {
+        "UniqueID": "fa1c0bf77b9f45c2be42072aaa4c37b9",
         "PlayerNamePrivate": "virushouse",
         "KillScore": 8,
         "Place": 6
@@ -3232,20 +3124,24 @@
         "Place": 2
       },
       {
+        "UniqueID": "05e2d32a186c4e828fb5eb96df57130c",
         "PlayerNamePrivate": "luigi2842",
         "Place": 42
       },
       {
+        "UniqueID": "72e31721a09f4e92b7c548a7067fc029",
         "PlayerNamePrivate": "down_kotter89",
         "KillScore": 3,
         "Place": 29
       },
       {
+        "UniqueID": "9534dc195d4c400987581f04597ade6d",
         "PlayerNamePrivate": "Sojuszek777",
         "KillScore": 2,
         "Place": 65
       },
       {
+        "UniqueID": "6a514ea8ca34423d820ca90b9a56fd8f",
         "PlayerNamePrivate": "vas1li",
         "Place": 94
       },
@@ -3265,6 +3161,7 @@
         "Place": 31
       },
       {
+        "UniqueID": "bf48cc5a90124ff4bbef436ce55e6f1e",
         "PlayerNamePrivate": "ANDRON_39",
         "KillScore": 2,
         "Place": 8
@@ -3295,6 +3192,7 @@
         "Place": 76
       },
       {
+        "UniqueID": "60df62730cdf424bb7fb05b8a9da13d2",
         "PlayerNamePrivate": "Camouflage_71",
         "KillScore": 2,
         "Place": 73
@@ -3358,21 +3256,25 @@
         "Place": 27
       },
       {
+        "UniqueID": "634311a416164074906752232c0dc6d2",
         "PlayerNamePrivate": "xdx2k7",
         "KillScore": 7,
         "Place": 1
       },
       {
+        "UniqueID": "56f1aff57b174f92a8b5c6fcc725c845",
         "PlayerNamePrivate": "maicolo4658",
         "KillScore": 4,
         "Place": 26
       },
       {
+        "UniqueID": "240882e3927d4553b0633ee55a0eeed9",
         "PlayerNamePrivate": "High420af",
         "KillScore": 11,
         "Place": 3
       },
       {
+        "UniqueID": "829f0dc16d6a4ecb80569735191db6af",
         "PlayerNamePrivate": "Volt Budzik",
         "KillScore": 1,
         "Place": 46
@@ -3455,6 +3357,7 @@
         "Place": 55
       },
       {
+        "UniqueID": "150cf73b1e5644d483d3555f2107538e",
         "PlayerNamePrivate": "turvaton_maasto",
         "KillScore": 5,
         "Place": 15
@@ -3507,6 +3410,7 @@
         "Place": 49
       },
       {
+        "UniqueID": "36ca1bd7c2b7490e833e4500c9d65f3e",
         "PlayerNamePrivate": "giddy_italics7",
         "Place": 98
       },
@@ -3850,8 +3754,5 @@
         "PlayerNamePrivate": "Rex"
       }
     ]
-  },
-  "mapData": {
-    "slurptruck": []
   }
 }

@@ -40,7 +40,7 @@ fs.watch(fdirFortniteReplay, async (eventType, filename) => { // could be either
   try {
     if (syncCheckFileExtIsReplay(filename)) {
       //console.log("ROOT", Date.now()/1000, eventType, " ", filename, fext);
-      const fnamefull = fdirFortniteReplay + filename;
+      //const fnamefull = fdirFortniteReplay + filename;
       if (eventType === "change" || eventType === "rename") {
         //console.log("CHANGE", Date.now()/1000, eventType, " ", filename);
         _GLOBAL_replayDataJSON = await asyncProcessReplay(filename);
@@ -233,19 +233,22 @@ async function asyncParseReplay(filename) {
     console.time("PARSE TIME "+filename);
     if (fs.existsSync(fnamefull)) {
       const replayBinary = fs.readFileSync(fnamefull);
-    	const decodeConfig = {
+						
+    	const default_decodeConfig = {
+    		parseLevel: 1,
+    		debug: false,
+        parseEvents: true,
+        parsePackets:true,
+    	}
+
+			const custom_decodeConfig = {
         handleEventEmitter,
         customNetFieldExports: NetFieldExports,
         onlyUseCustomNetFieldExports: true,
         customClasses,
     	}
-    	const _unused_decodeConfig = {
-    		parseLevel: 10,
-    		debug: true,
-        parseEvents: true,
-        parsePackets:true,
-    	}
-      replayDataJSON = await replayReader(replayBinary, decodeConfig);
+
+      replayDataJSON = await replayReader(replayBinary, custom_decodeConfig);
     }
   } catch(error) {
     //debug: console.log("CATCH-PARSEREPLAY", Date.now()/1000, " ", error);
@@ -410,6 +413,8 @@ function syncComputeReplay(replayDataJSON) {
   		}
   	});
 
+		//console.log(obj.killfeed)
+
 
     // GAMEDATA
   	const { players, gameState, playlistInfo } = gameData || {};
@@ -424,11 +429,12 @@ function syncComputeReplay(replayDataJSON) {
   		// destructure
   		const {
   			bIsABot,  					// bot+npc: true; real: undefined
-        // removed in new parser-version: UniqueId, 					// real: "f01afccdf1e846f780531e60df2b8df1"; bot: undefined
+        UniqueID, 					// new replays c4s4; real: "f01afccdf1e846f780531e60df2b8df1"; bot: undefined
+				UniqueId,						// old replays <c4s4
   			PlayerNamePrivate, 	// real+bot: "xdx2k7" "Wache der Sieben"
   			KillScore, 					// real+bot+npc: 4
   			Place, 							// real+bot: 63
-  			//DeathCause,					// real+bot+npc: "OutsideSafeZone",
+  			DeathCause,					// real+bot+npc: "OutsideSafeZone",
   			//bIsSkydivingFromBus,// real+bot: true
   		} = player || {}
 
@@ -439,7 +445,7 @@ function syncComputeReplay(replayDataJSON) {
 
   		// new array-element
   		const newE = {
-  			//removed in new parser-version: id				: UniqueId || "",
+  			id : UniqueID || UniqueId || "", // epic changed id.tag from c4s4 to UniqueID (old replays: UniqueId)
   			name,
 				isBot,
 				isNpc,
@@ -449,7 +455,7 @@ function syncComputeReplay(replayDataJSON) {
   			kills			: KillScore || 0,
         hasKilled : [],
         killedBy  : null,
-  			//deathCause: DeathCause || "",
+  			deathCause: DeathCause || "",
   			//isSkydivingFromBus: bIsSkydivingFromBus || null,
   		}
 
@@ -458,13 +464,13 @@ function syncComputeReplay(replayDataJSON) {
 			if (isBot)  { botPlayerCount++; }
 			if (isNpc)  { npcCount++; }
   			
-  	  //console.log("PLAYER::", player, newE)
+  	  //if (isReal) console.log("PLAYER::", player, newE)
 
   		obj.actors.push(newE);
 
       // identify replay owner
       if (!bIsABot && Place && obj.replayowner.placement && Place === obj.replayowner.placement) {
-        //removed in new parser-version: obj.replayowner.id = UniqueId;
+        obj.replayowner.id = newE.id;
         obj.replayowner.name = PlayerNamePrivate;
         obj.replayowner.link = newE;
         //replayowner.deathCause = DeathCause;
@@ -513,6 +519,10 @@ function syncComputeReplay(replayDataJSON) {
     /////////////////////////////////////////////////////////
   	obj.actors.sort(function (a, b) { return a.placement - b.placement });
   	obj.killfeed.sort(function (a, b) { return a.time - b.time });
+
+		//console.log(obj.actors)
+		//console.log(obj.killfeed)
+
   } catch(error) {
     console.log("CATCH-COMPUTEREPLAY", Date.now()/1000, " ", error);
   } finally {
@@ -592,18 +602,19 @@ function syncPrintReplay(replayDataJSON, showCompact) {
 
 
     if (!showCompact) {
-    	console.log("  PLACEMENTS");
-    	// sort array by placement
+			//console.log("xxx", obj.actors)
+			console.log("  PLACEMENTS");
+
+			// sort array by placement
     	obj.actors.forEach((e) => {
     		if (e.placement) {
-    			//const strPlayerID = (e.isABot===true) ? "AI                              " : e.id
     			const strPlayerID = (e.isBot===true) ? "AI   " : "HUMAN";
-    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills} kills${e.kills<10?" ":""}  ${strPlayerID} ${e.name}`)
+    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills} kills${e.kills<10?" ":""}  ${strPlayerID} ${e.name} ${e.id}`)
 
     			// got killed by ...
           if (e.killedBy) {
             const strKiller = (e.killedBy.killer === e.killedBy.killed) ? "himself                         " : e.killedBy.killer + " (" + e.killedBy.name + ")";
-            console.log(`             killed by ${strKiller} with ${e.killedBy.gun} after ${Math.floor(e.killedBy.time/1000)} sec`)
+            console.log(`                             killed by ${strKiller} with ${e.killedBy.gun} after ${Math.floor(e.killedBy.time/1000)} sec`)
           }
 
           /*
@@ -635,7 +646,7 @@ function syncPrintReplay(replayDataJSON, showCompact) {
             e.hasKilled.forEach(k => {
               //{id, name, gun, time, killer, killed} = e.killedBy || {};
               const strKilled = (k.killer === k.killed) ? "himself                         " : k.killed + " (" + k.name + ")";
-              console.log(`             he killed ${strKilled} with ${k.gun} after ${Math.floor(k.time/1000)} sec`)
+              console.log(`                             he killed ${strKilled} with ${k.gun} after ${Math.floor(k.time/1000)} sec`)
             });
           }
         /*
