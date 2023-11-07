@@ -497,10 +497,11 @@ function syncComputeReplay(replayDataJSON) {
 
   	obj.gamedata.timestamp = Timestamp;
 
-  	obj.gamedata.totalActors = obj.actors.length || 0;
+		obj.gamedata.totalPlayers= realPlayerCount + botPlayerCount
+  	obj.gamedata.totalActors = realPlayerCount + botPlayerCount + npcCount; // obj.actors.length || 0;
   	obj.gamedata.realPlayers = realPlayerCount;
-  	obj.gamedata.botPlayers  = obj.gamedata.totalPlayers - obj.gamedata.realPlayers;
-  	obj.gamedata.npcPlayers  = obj.gamedata.totalActors - obj.gamedata.totalPlayers;
+  	obj.gamedata.botPlayers  = botPlayerCount; // obj.gamedata.totalPlayers - obj.gamedata.realPlayers;
+  	obj.gamedata.npcPlayers  = npcCount; // obj.gamedata.totalActors - obj.gamedata.totalPlayers;
 
 		//console.log("realPlayers: ", realPlayerCount)
 		//console.log("botPlayers: ", botPlayerCount, obj.gamedata.botPlayers)
