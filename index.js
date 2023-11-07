@@ -9,6 +9,7 @@ const replayReader = require('fortnite-replay-parser');
 const handleEventEmitter = require('./FortniteReplayParser/Exports/handleEventEmitter');
 const NetFieldExports    = require('./FortniteReplayParser/NetFieldExports');
 const customClasses      = require('./FortniteReplayParser/Classes');
+const console = require('console');
 
 
 ///////////////////////////////////////////////
@@ -609,8 +610,8 @@ function syncPrintReplay(replayDataJSON, showCompact) {
 			// sort array by placement
     	obj.actors.forEach((e) => {
     		if (e.placement) {
-    			const strPlayerID = (e.isBot===true) ? "AI   " : "HUMAN";
-    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills} kills${e.kills<10?" ":""}  ${strPlayerID} ${e.name} ${e.id}`)
+    			const strPlayerType = (e.isBot===true) ? "AI   " : "HUMAN";
+    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills} kills${e.kills<10?" ":""}  ${strPlayerType} ${e.name} ${e.id}`)
 
     			// got killed by ...
           if (e.killedBy) {
@@ -674,9 +675,8 @@ function syncPrintReplay(replayDataJSON, showCompact) {
     	obj.actors.sort(function (a, b) { return b.placement - a.placement });
     	obj.actors.forEach((e) => {
     		if (e.placement) {
-    			//const strPlayerID = (e.isABot===true) ? "AI                              " : e.id
-    			const strPlayerID = (e.isBot===true) ? "AI   " : "HUMAN"
-    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills<10?" ":""}${e.kills} kills ${strPlayerID} ${e.name}`)
+    			const strPlayerType = (e.isBot===true) ? "AI   " : "HUMAN"
+    			console.log(`    ${e.placement<10?" ":""}${e.placement}.Place ${e.kills<10?" ":""}${e.kills} kills ${strPlayerType} ${e.name}`)
     		}
     	});
     }
@@ -697,8 +697,8 @@ function syncPrintReplay(replayDataJSON, showCompact) {
           link.hasKilled.forEach(k => {
             //{id, name, gun, time, killer, killed} = e.killedBy || {};
             const strKilled = (k.killer === k.killed) ? "yourself                        " : k.killed + " (" + k.name + ")";
-            console.log(`        you killed ${strKilled} with ${k.gun} after ${Math.floor(k.time/1000)} sec`)
-          });
+            console.log(`        you killed ${strKilled} with ${k.gun} after ${Math.floor(k.time/1000)} sec`);
+f          });
         }
       }
 
