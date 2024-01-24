@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "fortnite-replay-parser": "^1.4.8"
+    "fn-replay-parser": "^1.1.3",
+    "fortnite-replay-parser": "^1.4.8",
+    "replay-reader": "^3.1.0"
+  },
+  "devDependencies": {
+    "tslib": "^2.6.2"
   }
 }
