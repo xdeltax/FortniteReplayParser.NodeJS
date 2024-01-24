@@ -44,9 +44,9 @@ pkg index.js -t linux -o "xdxReplayParser.x64"
 ```
 
 
-npm install fortnite-replay-parser (https://github.com/xNocken/replay-reader)
+npm install --save fortnite-replay-parser (https://github.com/xNocken/replay-reader)
 
-npm install replay-reader (https://github.com/ThisNils/node-replay-reader/tree/master)
-npm install tslib --save-dev
+npm install --save replay-reader (https://github.com/ThisNils/node-replay-reader/tree/master)
+npm install --save-dev tslib 
 
-npm install fn-replay-parser (https://github.com/remoblaser/fn-replay-parser)
+npm install --save fn-replay-parser (https://github.com/remoblaser/fn-replay-parser)
