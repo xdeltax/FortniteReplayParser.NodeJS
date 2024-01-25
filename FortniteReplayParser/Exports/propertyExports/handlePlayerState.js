@@ -20,6 +20,13 @@ const handlePlayerState = ({ chIndex, data, states, result }) => {
     }
   }
   
+  
+  updateProperty('BotUniqueId', data.BotUniqueId);
+  updateProperty('PlayerId', data.PlayerId);
+  updateProperty('FinisherOrDowner', data.FinisherOrDowner);
+  
+  
+
   updateProperty('bIsABot', data.bIsABot);
   updateProperty('UniqueID', data.UniqueID);
   updateProperty('UniqueId', data.UniqueId);
@@ -30,7 +37,7 @@ const handlePlayerState = ({ chIndex, data, states, result }) => {
 	
 	//console.log(data)
   if (!playerData.bIsABot && data.PlayerNamePrivate) {
-    const name = data.PlayerNamePrivate  || "";
+    const name = data.PlayerNamePrivate || "";
 
     playerData.PlayerNamePrivate = name.split('').map((a, i) => String.fromCharCode(a.charCodeAt() + ((name.length % 4 * 3 % 8 + 1 + i) * 3 % 8))).join('')
   }

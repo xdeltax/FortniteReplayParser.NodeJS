@@ -12,6 +12,21 @@ module.exports = {
   exportName: 'players',
   exportType: 'array',
   properties: {
+    FinisherOrDowner: {
+      name: 'FinisherOrDowner',
+      parseFunction: 'readNetId',
+      parseType: 'default',
+    },
+    BotUniqueId: {
+      name: 'BotUniqueId',
+      parseFunction: 'readNetId',
+      parseType: 'default',
+    },
+    PlayerId: {
+      name: 'PlayerId',
+      parseFunction: 'readNetId',
+      parseType: 'default',
+    },
     UniqueID: {
       name: 'UniqueID',
       parseFunction: 'readNetId',
