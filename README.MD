@@ -2,7 +2,7 @@ fortnite replays parser for nodejs using [npm i fortnite-replay-parser] (https:/
 
 ## screenshot
 
-![Screenshot](/img/screenshot.png?raw=true "replay parser sample")
+![Screenshot](/img/Screenshot 2024-05-05 214057.png?raw=true "replay parser sample")
 
 ## install
 ```
