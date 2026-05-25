@@ -234,22 +234,33 @@ async function asyncParseReplay(filename) {
     console.time("PARSE TIME "+filename);
     if (fs.existsSync(fnamefull)) {
       const replayBinary = fs.readFileSync(fnamefull);
-						
-    	const default_decodeConfig = {
-    		parseLevel: 1,
-    		debug: false,
-        parseEvents: true,
-        parsePackets:true,
-    	}
 
-			const custom_decodeConfig = {
+      const custom_decodeConfig = {
+        parseLevel: 1,
+        debug: false,
+        parseEvents: true,
+        parsePackets: true,
         handleEventEmitter,
         customNetFieldExports: NetFieldExports,
         onlyUseCustomNetFieldExports: true,
         customClasses,
-    	}
+      }
 
-      replayDataJSON = await replayReader(replayBinary, custom_decodeConfig);
+      try {
+        replayDataJSON = await replayReader(replayBinary, custom_decodeConfig);
+      } catch (error) {
+        const message = (error && error.message) ? error.message : "";
+        const canRetryWithoutPackets = /offset is larger than buffer|too much was read expected/i.test(message);
+        if (!canRetryWithoutPackets) {
+          throw error;
+        }
+
+        console.log(`WARN: parser packet decode failed for ${filename}, retrying with parsePackets=false.`);
+        replayDataJSON = await replayReader(replayBinary, {
+          ...custom_decodeConfig,
+          parsePackets: false,
+        });
+      }
     }
   } catch(error) {
     //debug: console.log("CATCH-PARSEREPLAY", Date.now()/1000, " ", error);

@@ -16,10 +16,10 @@ fn-replay-parser@^1.1.3:
     fs "^0.0.1-security"
     typescript "^4.2.4"
 
-fortnite-replay-parser@^1.4.8:
+"fortnite-replay-parser@github:xNocken/replay-reader#7da45e4aa7fb58d33421d79d66c2136603a50ab4":
   version "1.4.8"
-  resolved "https://registry.npmjs.org/fortnite-replay-parser/-/fortnite-replay-parser-1.4.8.tgz"
-  integrity sha512-XyoGKVSvpbIkhQ5MzMrrgk4SdS1+hBxzGdk2B6rktpPrRyeqqtM2SzKt25YSd72+wPNooIaBt6/7xNIV+KbBAA==
+  resolved "git+ssh://git@github.com/xNocken/replay-reader.git#7da45e4aa7fb58d33421d79d66c2136603a50ab4"
+  integrity sha512-6jPnk1ZXnW8LWzj/lLDZgJ5BgP11N+f2zUOe5NTjT+i2q9blXuES1MVOsJNIcsdOn8g0Qvr++ypnByP+Z6NcRQ==
   dependencies:
     needle "^3.0.0"
     ooz-wasm "1.0.0"
