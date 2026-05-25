@@ -249,13 +249,17 @@ async function asyncParseReplay(filename) {
       try {
         replayDataJSON = await replayReader(replayBinary, custom_decodeConfig);
       } catch (error) {
-        const message = (error && error.message) ? error.message : "";
-        const canRetryWithoutPackets = /offset is larger than buffer|too much was read expected/i.test(message);
+        const message = error.message || "";
+        const stack = error.stack || "";
+        // Upstream parser currently throws generic Errors here, so we match known packet decode failures.
+        const canRetryWithoutPackets =
+          /offset is larger than buffer|too much was read expected/i.test(message)
+          || /parsePlaybackPackets\.js/i.test(stack);
         if (!canRetryWithoutPackets) {
           throw error;
         }
 
-        console.log(`WARN: parser packet decode failed for ${filename}, retrying with parsePackets=false.`);
+        console.warn(`Parser packet decode failed for ${filename}, retrying with parsePackets=false.`);
         replayDataJSON = await replayReader(replayBinary, {
           ...custom_decodeConfig,
           parsePackets: false,
