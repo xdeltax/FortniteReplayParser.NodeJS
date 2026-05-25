@@ -259,7 +259,7 @@ async function asyncParseReplay(filename) {
           throw error;
         }
 
-        console.warn(`Parser packet decode failed (${message}) for ${filename}, retrying with parsePackets=false.`);
+        console.warn(`Parser packet decode failed (${message}) for ${fnamefull}, retrying with parsePackets=false.`);
         replayDataJSON = await replayReader(replayBinary, {
           ...custom_decodeConfig,
           parsePackets: false,
