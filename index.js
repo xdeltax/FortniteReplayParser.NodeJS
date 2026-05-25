@@ -17,6 +17,7 @@ const console = require('console');
 ///////////////////////////////////////////////
 const fextFortniteReplay = ".replay";
 const fsubdirDecodedJSON = "./DECODED/";
+const QUIET_MODE = process.env.REPLAY_PARSER_QUIET !== "0";
 
 let   fdirFortniteReplay = path.join(homedir, "./AppData/Local/FortniteGame/Saved/Demos/");
 // fallback
@@ -246,9 +247,9 @@ async function asyncParseReplay(filename) {
         customClasses,
       }
 
-      try {
-        replayDataJSON = await replayReader(replayBinary, custom_decodeConfig);
-      } catch (error) {
+			try {
+				replayDataJSON = await asyncReplayReaderQuiet(replayBinary, custom_decodeConfig);
+			} catch (error) {
         const message = error.message || "";
         const stack = error.stack || "";
         // Upstream parser currently throws generic Errors here, so we match known packet decode failures.
@@ -259,8 +260,10 @@ async function asyncParseReplay(filename) {
           throw error;
         }
 
-        console.warn(`Parser packet decode failed (${message}) for ${fnamefull}, retrying with parsePackets=false.`);
-        replayDataJSON = await replayReader(replayBinary, {
+				if (!QUIET_MODE) {
+					console.warn(`Parser packet decode failed (${message}) for ${fnamefull}, retrying with parsePackets=false.`);
+				}
+				replayDataJSON = await asyncReplayReaderQuiet(replayBinary, {
           ...custom_decodeConfig,
           parsePackets: false,
         });
@@ -273,6 +276,36 @@ async function asyncParseReplay(filename) {
     console.timeEnd("PARSE TIME "+filename);
     return replayDataJSON;
   }
+}
+
+
+async function asyncReplayReaderQuiet(replayBinary, decodeConfig) {
+	const originalConsoleError = console.error;
+	const originalConsoleLog = console.log;
+
+	const shouldSilenceParserNoise = (text) => {
+		return /too much was read expected|offset is larger than buffer|invalid usertype\s+0/i.test(text);
+	};
+
+	console.error = (...args) => {
+		const msg = args.map((a) => (a && a.stack) ? a.stack : String(a)).join(" ");
+		// The parser emits noisy stack traces for known packet decode issues that we handle via fallback.
+		if (QUIET_MODE && shouldSilenceParserNoise(msg)) return;
+		originalConsoleError(...args);
+	};
+
+	console.log = (...args) => {
+		const msg = args.map((a) => String(a)).join(" ");
+		if (QUIET_MODE && shouldSilenceParserNoise(msg)) return;
+		originalConsoleLog(...args);
+	};
+
+	try {
+		return await replayReader(replayBinary, decodeConfig);
+	} finally {
+		console.error = originalConsoleError;
+		console.log = originalConsoleLog;
+	}
 }
 
 
@@ -713,7 +746,7 @@ function syncPrintReplay(replayDataJSON, showCompact) {
             //{id, name, gun, time, killer, killed} = e.killedBy || {};
             const strKilled = (k.killer === k.killed) ? "yourself                        " : k.killed + " (" + k.name + ")";
             console.log(`        you killed ${strKilled} with ${k.gun} after ${Math.floor(k.time/1000)} sec`);
-f          });
+					});
         }
       }
 

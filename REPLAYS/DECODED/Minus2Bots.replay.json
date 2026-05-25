@@ -1843,791 +1843,1062 @@
   "gameData": {
     "players": [
       {
+        "PlayerId": "",
         "UniqueID": "f4932cdd9aa94b4e95e92aba4c1d4f10",
         "PlayerNamePrivate": "IMED_Santos",
+        "FinisherOrDowner": "",
         "Place": 71
       },
       {
+        "PlayerId": "",
         "UniqueID": "e3f537688c1945869c573530e57fc926",
         "PlayerNamePrivate": "3erbi Deluxe",
+        "FinisherOrDowner": "",
         "Place": 53
       },
       {
         "PlayerNamePrivate": ""
       },
       {
+        "PlayerId": "",
         "UniqueID": "d3ad5b76ccf34816a62b4f1905360b8c",
         "PlayerNamePrivate": "Mama-drunk",
         "KillScore": 2,
+        "FinisherOrDowner": "",
         "Place": 34
       },
       {
+        "PlayerId": "",
         "UniqueID": "66146bfc76fe48a2ae6fc4f76a1a0495",
         "PlayerNamePrivate": "Guigui62105396",
         "KillScore": 1
       },
       {
+        "PlayerId": "00",
         "UniqueID": "1fbdbf00e2c448d7b559a2eafcd67122",
         "PlayerNamePrivate": "El_Sunrise",
+        "FinisherOrDowner": "",
         "Place": 75
       },
       {
+        "PlayerId": "",
         "UniqueID": "dbe3cad9e19240129a953e57bf005a9d",
         "PlayerNamePrivate": "Ratus7517",
+        "FinisherOrDowner": "87040cc3220190c193025123",
         "Place": 63
       },
       {
+        "PlayerId": "",
         "UniqueID": "b98db667ffae447ca6ae53d0ca759bfa",
         "PlayerNamePrivate": "Wistitiluz",
+        "FinisherOrDowner": "",
         "KillScore": 1,
         "Place": 51
       },
       {
+        "PlayerId": "",
         "UniqueID": "898845c64bba485e91685bb86883fd44",
         "PlayerNamePrivate": "p0wer21cm",
+        "FinisherOrDowner": "",
         "Place": 89
       },
       {
+        "PlayerId": "00",
         "UniqueID": "032a2d944d6f40e190b8a0b5324c2da6",
         "PlayerNamePrivate": "JANBue20"
       },
       {
+        "PlayerId": "",
         "UniqueID": "3f06097407324cd4ac030c5fb9cf35e1",
         "PlayerNamePrivate": "chef_pepo"
       },
       {
+        "PlayerId": "",
         "UniqueID": "2513e5500c33478b93c0026618a11c4c",
         "PlayerNamePrivate": "crazy_hedgehog0",
+        "FinisherOrDowner": "",
         "Place": 73
       },
       {
+        "PlayerId": "00",
         "UniqueID": "245a8e175ea943c5839fc0ac239531db",
         "PlayerNamePrivate": "LoryRaimo94",
+        "FinisherOrDowner": "",
         "Place": 83
       },
       {
+        "PlayerId": "",
         "UniqueID": "650d827b2cbf43a5b7b4d0c8680f38ff",
         "PlayerNamePrivate": "scheisg123456789",
+        "FinisherOrDowner": "",
         "Place": 68
       },
       {
+        "PlayerId": "",
         "UniqueID": "e6ea62ce6dd448369c3f39260bbfaff8",
         "PlayerNamePrivate": "mugliamere-77",
+        "FinisherOrDowner": "87040cc5220190bf",
         "Place": 32
       },
       {
+        "PlayerId": "00",
         "UniqueID": "6d17f93c04074a0b9d0a3e75409f3dd4",
         "PlayerNamePrivate": "Prinse_31",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 64
       },
       {
+        "PlayerId": "",
         "UniqueID": "fbf0e2affb7f421dbe84c3c8a92fbf74",
         "PlayerNamePrivate": "UdoChudo",
+        "FinisherOrDowner": "",
         "Place": 93
       },
       {
+        "PlayerId": "",
         "UniqueID": "dac83b2991da4b2d976e29328ae7fb13",
         "PlayerNamePrivate": "ViZePlaY",
         "KillScore": 3
       },
       {
+        "PlayerId": "",
         "UniqueID": "4583987885c44017a665e651d7f28134",
         "PlayerNamePrivate": "qnovvak",
+        "FinisherOrDowner": "87040cc42201d0a1c285512341a0c04ee483d359013fd0d5",
         "Place": 69
       },
       {
+        "PlayerId": "00",
         "UniqueID": "8959866470a14ea598e313d78df80d17",
         "PlayerNamePrivate": "wiyee00",
+        "FinisherOrDowner": "87040cc322019041c7e7502341a000414890095a2c3af0f798acb4d13b3710d9b104e8b2be22d02381c048822806a427f0930082966b81fa02822daa",
         "Place": 62
       },
       {
+        "PlayerId": "",
         "UniqueID": "316de10be92e4de6b19b1d61a8c53315",
         "PlayerNamePrivate": "Simon epic games"
       },
       {
+        "PlayerId": "",
         "UniqueID": "47eace0032a94beda2415757dd2ea22e",
         "PlayerNamePrivate": "TheOneSush1"
       },
       {
+        "PlayerId": "",
         "UniqueID": "ec7c622db9174b3886dbc1f3488fc325",
         "PlayerNamePrivate": "Gh0st1376",
         "KillScore": 1,
+        "FinisherOrDowner": "NULL",
         "Place": 92
       },
       {
+        "PlayerId": "",
         "UniqueID": "346155a00e77457f80675aaa4f17dc93",
         "PlayerNamePrivate": "ϝx βεϲhαΨ",
+        "FinisherOrDowner": "87040cc4220190cf59a0502341a0405fda6e144d383530378febfebd34357043",
         "Place": 88
       },
       {
+        "PlayerId": "00",
         "UniqueID": "fe95990c2ac546939d9ba7498e26c344",
         "PlayerNamePrivate": "SERGOLDEN",
         "KillScore": 1
       },
       {
+        "PlayerId": "",
         "UniqueID": "d9645ca46298423d9d35a4281bd5b7c7",
         "PlayerNamePrivate": "Dangucis",
+        "FinisherOrDowner": "",
         "Place": 76
       },
       {
+        "PlayerId": "",
         "UniqueID": "b9d22b54726c4b65aba2630d91c5318a",
         "PlayerNamePrivate": "Emily07P",
         "KillScore": 2
       },
       {
+        "PlayerId": "",
         "UniqueID": "b82da04c139b4bbb94cc91ea82d9e03c",
         "PlayerNamePrivate": "SourMule2981",
+        "FinisherOrDowner": "87040cc52201",
         "Place": 90
       },
       {
+        "PlayerId": "00",
         "UniqueID": "41bc058b800c49cd957c62fa16e20dbf",
         "PlayerNamePrivate": "PreciousLark91",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 65
       },
       {
+        "PlayerId": "",
         "UniqueID": "eaad207d55d14a1fb6eaa918ea3ddf2f",
         "PlayerNamePrivate": "xTheStoniii",
         "KillScore": 2
       },
       {
+        "PlayerId": "",
         "UniqueID": "bdbbae07ef7b473b9de49d06511bb72c",
         "PlayerNamePrivate": "Bazz_314",
+        "FinisherOrDowner": "87040cc52201",
         "Place": 87
       },
       {
+        "PlayerId": "NULL",
         "UniqueID": "ec0d6192c26242f190a5f6779bb20238",
         "PlayerNamePrivate": "GIULIO_P_2013"
       },
       {
+        "PlayerId": "NULL",
         "UniqueID": "acea4699598c473e8c8a2d75681e2825",
         "PlayerNamePrivate": "jaded-quibbler4",
         "KillScore": 2
       },
       {
+        "PlayerId": "NULL",
         "UniqueID": "634311a416164074906752232c0dc6d2",
         "PlayerNamePrivate": "xdx2k7",
         "KillScore": 2,
+        "FinisherOrDowner": "87040cc42201",
         "Place": 33
       },
       {
+        "PlayerId": "NULL",
         "UniqueID": "548485139ccc4f528d28977cc3c98107",
         "PlayerNamePrivate": "El_Monarca09",
         "KillScore": 1
       },
       {
+        "PlayerId": "NULL",
         "UniqueID": "d8bc50a7911b42b09135b3ee927047fc",
         "PlayerNamePrivate": "RoBeRt_ChAsT",
+        "FinisherOrDowner": "87040cc622011063",
         "Place": 46
       },
       {
+        "PlayerId": "",
         "UniqueID": "27aa9e0eedd84a028b63b917394b01c9",
         "PlayerNamePrivate": "Halcyon-Game75",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 50
       },
       {
+        "PlayerId": "",
         "UniqueID": "99f052aa4be24f7db28a43acf37b253b",
         "PlayerNamePrivate": "maxadel",
+        "FinisherOrDowner": "87040cc32201902595fc502341a0806d98dd63a8953dd0455bf6295aa33c70ced844",
         "Place": 47
       },
       {
+        "PlayerId": "",
         "UniqueID": "25821fe3dc934fe8a62ae712e091a922",
         "PlayerNamePrivate": "chico_das_babes_",
+        "FinisherOrDowner": "",
         "Place": 80
       },
       {
+        "PlayerId": "00",
         "UniqueID": "b1b61a0749114a5fab0862eeaa5a382e",
         "PlayerNamePrivate": "deadman8818",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 77
       },
       {
+        "PlayerId": "",
         "UniqueID": "38a43be83aef4808b76055863ec0ca18",
         "PlayerNamePrivate": "Patrycha1241"
       },
       {
+        "PlayerId": "",
         "UniqueID": "a84e29399aa84358b1277de46d6c951d",
         "PlayerNamePrivate": "trocito_sapo",
         "KillScore": 1,
+        "FinisherOrDowner": "87040cc3220110382e04512341a0402567fc3cfadd3a108f034cc7826a31b0609031",
         "Place": 60
       },
       {
+        "PlayerId": "",
         "UniqueID": "a07c8130a9b54c359fc4b592e0260a1f",
         "PlayerNamePrivate": "messi62220",
+        "FinisherOrDowner": "",
         "Place": 45
       },
       {
+        "PlayerId": "",
         "UniqueID": "19f2e735568a461da11ba79f116cf37f",
         "PlayerNamePrivate": "mxs 230",
         "KillScore": 1
       },
       {
+        "PlayerId": "NULL",
         "UniqueID": "62712865d772457fbc6bc8b7ecf74a13",
         "PlayerNamePrivate": "Lahi on 60Hz",
+        "FinisherOrDowner": "8d0481028e853096",
         "Place": 90
       },
       {
+        "PlayerId": "",
         "UniqueID": "3127fe5ea0e343618643486cf4d154f1",
         "PlayerNamePrivate": "CzarnyAniolv1",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 54
       },
       {
+        "PlayerId": "",
         "UniqueID": "22d3f3983401495b9bcc140c5062b96e",
         "PlayerNamePrivate": "GX3 KAIZO",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 84
       },
       {
+        "PlayerId": "",
         "UniqueID": "5f2012db768345e6868d09017fc2c947",
         "PlayerNamePrivate": "Kenji_the_One",
+        "FinisherOrDowner": "",
         "Place": 94
       },
       {
+        "PlayerId": "00",
         "UniqueID": "7f0b70f170b74346a6d55db02a6c79de",
         "PlayerNamePrivate": "PROCKYLEGEEZ2",
         "KillScore": 1
       },
       {
+        "PlayerId": "00",
         "UniqueID": "b4506c9995f44615a379f4861be2a8ff",
         "PlayerNamePrivate": "ardent-fixation7",
         "KillScore": 5
       },
       {
+        "PlayerId": "00",
         "UniqueID": "0d889d3254d545ac83a90f2b2953c2c7",
         "PlayerNamePrivate": "Tjakkapakatoeloe",
+        "FinisherOrDowner": "",
         "Place": 82
       },
       {
+        "PlayerId": "",
         "UniqueID": "7bfde79cc71045608ddf7e6ce836b318",
         "PlayerNamePrivate": "biquet-olive",
         "KillScore": 2
       },
       {
+        "PlayerId": "",
         "UniqueID": "c359e03ff246420cb1d5d2146aad817d",
         "PlayerNamePrivate": "Dandoozy999"
       },
       {
+        "PlayerId": "",
         "UniqueID": "8f0c9956770f4732a365b4a782ab2a00",
         "PlayerNamePrivate": "Vibin.Fuesy 大",
         "KillScore": 7
       },
       {
+        "PlayerId": "00",
         "UniqueID": "b41a658b0427482987f7b7a58e2cc27c",
         "PlayerNamePrivate": "thomaskip2018"
       },
       {
+        "PlayerId": "",
         "UniqueID": "10ea2f98153a4c2f853017209e33836d",
         "PlayerNamePrivate": "mck_mwka",
+        "FinisherOrDowner": "",
         "Place": 36
       },
       {
+        "PlayerId": "",
         "UniqueID": "b868854b0f2e4284bd0e91218a7de060",
         "PlayerNamePrivate": "wawahuiwaaa",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 37
       },
       {
+        "PlayerId": "",
         "UniqueID": "7635e4cd11ef4111ab9d8f81a919c58e",
         "PlayerNamePrivate": "Blade2102",
         "KillScore": 2
       },
       {
+        "PlayerId": "00",
         "UniqueID": "b43bc927fffc4770b5da291c60f91bad",
         "PlayerNamePrivate": "Pansworth",
         "KillScore": 1
       },
       {
+        "PlayerId": "",
         "UniqueID": "010dabf4b01a4a0f8f8921823af35d70",
         "PlayerNamePrivate": "Leo_pennesi28",
         "KillScore": 1
       },
       {
+        "PlayerId": "",
         "UniqueID": "83146437a866482489526071bb084720",
         "PlayerNamePrivate": "XluxFyLUFC",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 31
       },
       {
+        "PlayerId": "",
         "UniqueID": "3f9fc3c3ae3d447f91218c640c65bb2b",
         "PlayerNamePrivate": "MeltedKoala201"
       },
       {
+        "PlayerId": "00",
         "UniqueID": "9d9da0af9fcc4d9db7d2767fe5d477e3",
         "PlayerNamePrivate": "NoblePerch8170",
+        "FinisherOrDowner": "87040cc3220110a92de6502341a0008768c8e8e7cd3ed0339038d976373bb0d1dada",
         "Place": 61
       },
       {
+        "PlayerId": "",
         "UniqueID": "31c1961cb593403882296c2a5a41b9b7",
         "PlayerNamePrivate": "MathiasL28319",
+        "FinisherOrDowner": "",
         "Place": 44
       },
       {
+        "PlayerId": "",
         "UniqueID": "7b06400faa6940e9b4880faccec2db34",
         "PlayerNamePrivate": "chulimbomoli",
+        "FinisherOrDowner": "87040cc3220190f0250e512341a040bb44f236646b3af05d867076e1e834d0dd0979c84c9a22d02381c048821806a327f0930082966b81fa02822daa",
         "Place": 86
       },
       {
+        "PlayerId": "",
         "UniqueID": "8bd252d7665346e6b3602f073e21f450",
         "PlayerNamePrivate": "raouf39.45",
+        "FinisherOrDowner": "",
         "Place": 81
       },
       {
+        "PlayerId": "00",
         "UniqueID": "b8e5254401f34e9299737b973ee7e958",
         "PlayerNamePrivate": "ze{lU]A"
       },
       {
+        "PlayerId": "",
         "UniqueID": "01c2ec7a6cf94831b2e0a3f1eb75cf9f",
         "PlayerNamePrivate": "[OtkwYJTit",
+        "FinisherOrDowner": "",
         "Place": 70
       },
       {
+        "PlayerId": "",
         "UniqueID": "f59e3889b9bf414aa1cf4089bee0ca0d",
         "PlayerNamePrivate": "ki{PvGvlVG",
         "KillScore": 1,
+        "FinisherOrDowner": "87040cc62201d07dd843512341a0405389d825fe173ad07ef5a80a92b23c30e5eac8626f6029d02381c048824807ab27f0930082966b81fa0282",
         "Place": 72
       },
       {
+        "PlayerId": "00",
         "UniqueID": "baf95247608146c6a64a7fb62fcae75c",
         "PlayerNamePrivate": "YNwpw^grugf",
+        "FinisherOrDowner": "87040cc3220110c1cb08512341a0805606816561403d50aa224a46aafd3c30b43067",
         "Place": 43
       },
       {
+        "PlayerId": "",
         "UniqueID": "0ba613fdd1794450822173d55d5246c4",
         "PlayerNamePrivate": "rLHlRYRotwU",
         "KillScore": 1,
+        "FinisherOrDowner": "87040ccd220110a284fe502341a080556f82",
         "Place": 56
       },
       {
+        "PlayerId": "",
         "UniqueID": "2f81a468c65746898973e146254f75e3",
         "PlayerNamePrivate": "TpH}^LYi",
+        "FinisherOrDowner": "87040cc3220150525507512341a000aff4602cb6fe23d0d2b9a8bf5f9a38300682e36b669415d02381c048823806a527f0930082966b81fa0282",
         "Place": 58
       },
       {
+        "PlayerId": "",
         "UniqueID": "0f21ebe164734e85bf8a45a2971aea58",
         "PlayerNamePrivate": "wtZgT",
         "KillScore": 2,
+        "FinisherOrDowner": "",
         "Place": 66
       },
       {
+        "PlayerId": "00",
         "UniqueID": "cce7d3bbc4ea4e229dc2dd1aa41db9e8",
         "PlayerNamePrivate": "\\lPJh",
+        "FinisherOrDowner": "87040cc3220190b3d71e512341a04026dae440baeb2c30067cba4c19e13cf09a73ebb96fb527d02381c048820007a827f0930082966b81fa02822daa8334818d3481831d819a",
         "Place": 74
       },
       {
+        "PlayerId": "",
         "UniqueID": "e3960cc2b5064e1c837d48f121f3bc35",
         "PlayerNamePrivate": "hQphKqOf",
+        "FinisherOrDowner": "",
         "Place": 85
       },
       {
+        "PlayerId": "",
         "UniqueID": "166010513798481ea4b2a278a8bc201d",
         "PlayerNamePrivate": "qScu~rvHhZHe"
       },
       {
+        "PlayerId": "",
         "UniqueID": "d3baa4c0a020478f9e793311e668959c",
         "PlayerNamePrivate": "OswhRjFC",
+        "FinisherOrDowner": "8d048102b4447dac8965e04090a987e2580fb04050368743f9d9b6408f04022309e00822cf04467a0426090210589ec04f02085aae05",
         "Place": 95
       },
       {
+        "PlayerId": "00",
         "UniqueID": "7aa4b37f0dd14410b86860b53b00b172",
         "PlayerNamePrivate": "WyEOgXWKH",
+        "FinisherOrDowner": "",
         "Place": 79
       },
       {
+        "PlayerId": "",
         "UniqueID": "d136e4d6fbc94b91a261f69cdd3da425",
         "PlayerNamePrivate": "z[uOEOqpxsJGM",
+        "FinisherOrDowner": "",
         "Place": 35
       },
       {
+        "PlayerId": "",
         "UniqueID": "c65b93af6e564df2a38d99de0e09d059",
         "PlayerNamePrivate": "vym|hkFSGmus",
         "KillScore": 2,
+        "FinisherOrDowner": "",
         "Place": 40
       },
       {
+        "PlayerId": "",
         "UniqueID": "f3cd1780b0ef4801939eebf470f7b788",
         "PlayerNamePrivate": "jNpoZKl",
         "KillScore": 2
       },
       {
+        "PlayerId": "",
         "UniqueID": "08ab30eae69b47f3b98182560653d002",
         "PlayerNamePrivate": "mSGV\\MY^bN",
+        "FinisherOrDowner": "",
         "Place": 78
       },
       {
+        "PlayerId": "00",
         "UniqueID": "d6d87dae9743461baf288c02c6ecd1a2",
         "PlayerNamePrivate": "qZUVo",
+        "FinisherOrDowner": "87040cc52201101a4f06512341a0802b043b88dd953dd065bc245716ae3d305a3aa242e5d823d02381c048825807ac27f0930082966b81fa02822daa8334818d3481",
         "Place": 39
       },
       {
+        "PlayerId": "",
         "UniqueID": "8aa13f2df3f44384b147e059b57c067c",
         "PlayerNamePrivate": "MkdZDH}bunkzk",
+        "FinisherOrDowner": "87040cc5220190e5d66f512341a0806f489e045a0e3b70bc5c87b261033c50ed663c035bc030",
         "Place": 49
       },
       {
+        "PlayerId": "",
         "UniqueID": "5517b974da89412185dc93d479adce8b",
         "PlayerNamePrivate": "MXJRu",
         "KillScore": 1
       },
       {
+        "PlayerId": "",
         "UniqueID": "c7b0b5ffd47e4cc2b10f9c01b112a64b",
         "PlayerNamePrivate": "TPOq{|D",
         "KillScore": 2,
+        "FinisherOrDowner": "",
         "Place": 48
       },
       {
+        "PlayerId": "00",
         "UniqueID": "f64f88dea54548cda726f1f5ead28f3c",
         "PlayerNamePrivate": "wBGiXL~Eog",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 55
       },
       {
+        "PlayerId": "",
         "UniqueID": "acadfc45bce94a5c8730b51fbc572324",
         "PlayerNamePrivate": "WsW{wYNvVA",
+        "FinisherOrDowner": "",
         "Place": 91
       },
       {
+        "PlayerId": "",
         "UniqueID": "bf38aae824614fc3ba04139ac36f8672",
         "PlayerNamePrivate": "jRtSvDzW",
+        "FinisherOrDowner": "",
         "Place": 41
       },
       {
+        "PlayerId": "",
         "UniqueID": "c8114b1582674358946c644000157c8c",
         "PlayerNamePrivate": "PUsg^sya",
+        "FinisherOrDowner": "",
         "Place": 59
       },
       {
+        "PlayerId": "00",
         "UniqueID": "9a8d80acab8a40ce824e6be3e07f5862",
         "PlayerNamePrivate": "rbHNPyNXUO",
+        "FinisherOrDowner": "",
         "Place": 67
       },
       {
+        "PlayerId": "",
         "UniqueID": "547754046d7d4211862ff0133128836a",
         "PlayerNamePrivate": "}jgKMK|LqIuVM",
+        "FinisherOrDowner": "",
         "Place": 52
       },
       {
+        "PlayerId": "",
         "UniqueID": "e206ac9eea2f4fda87d858a7e5a9c5c8",
         "PlayerNamePrivate": "OkUHpE",
         "KillScore": 2,
+        "FinisherOrDowner": "",
         "Place": 38
       },
       {
+        "PlayerId": "00",
         "UniqueID": "5c53f4c4c6f64da2b9043f3f6a34d4ab",
         "PlayerNamePrivate": "rqryG"
       },
       {
+        "PlayerId": "",
         "UniqueID": "db4867a664d143148903c1202d3af66f",
         "PlayerNamePrivate": "\\^ieYKkSYWBh",
         "KillScore": 1,
+        "FinisherOrDowner": "",
         "Place": 42
       },
       {
+        "PlayerId": "",
         "UniqueID": "70ee9f40e8524b7381b2197b0bb64801",
         "PlayerNamePrivate": "|nUkk",
+        "FinisherOrDowner": "",
         "Place": 57
       },
       {
+        "PlayerId": "",
         "UniqueID": "cda2fc3c599948c2874c4f9192789425",
         "PlayerNamePrivate": "|AxPfi",
         "KillScore": 1
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Nolan Chance"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Phaedra"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Sonnige Retterin"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Antonia"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Muskelstäbchen"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Diamantdiva"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Mae"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Royaler Bomber"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Victoria Saint"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Piper Pace"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Knochen-Schali"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Bullenhai"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Liebeskummer-Ranger"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Sumpfstäbchen"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Joni die Scharlachrote"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
-        "PlayerNamePrivate": "Wiedergänger Kado Thorne"
+        "PlayerNamePrivate": "Wiedergänger Kado Thorne",
+        "FinisherOrDowner": "87040cc3220150a2b9eb502341a000551f243ba6473b500efca38f31cf3c300734c07340a829d02381c048825007ac27f0930082966b81fa0282"
       },
       {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Der Kartengeber"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Der Kartengeber"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Karo-Kartengeber"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Ehrengeleit"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Herz-Kartengeber"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache",
-        "KillScore": 1
+        "FinisherOrDowner": "87040cc52201106f5f2f512341a040c1099f8a49853ad0027d742373b43cb046486333936c29d02381c048821808af27f0930082966b81fa0282"
       },
       {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Der Kartengeber",
+        "FinisherOrDowner": "87040cc4220110ffb717512341a080c326b7ead9411fd05ec9d0ed07fc38b05bef36aa62c726"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Der Kartengeber",
+        "FinisherOrDowner": "8b0440bd5ce5458d048102479f82ae8265e9c08facc12a0364de400701c92033c38a408f04022309021da89ec04f02085aae05ea0b08b6a80ed20436d2040e76046a76046e76"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Karo-Kartengeber",
+        "FinisherOrDowner": "87040cc52201907d"
+      },
+      {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "8b04400d5de4438d048102c4"
+      },
+      {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Ehrengeleit",
+        "FinisherOrDowner": "87040cc3220110841a0e5123"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc4220190e34a42512341a0804e01cefe93e729f0fd878a8ff3a739b0a597c29e493b1c"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc3220190bcf7d55023"
+      },
+      {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc222011038d910512341a0800adc26"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc322011097e920512341a0008ed3e57df4293a705c1e9d348d8937104b36db9899541fd02381c048825806a627f0930082966b81fa02822daa"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc32201d0ecb000512341a0c0080d2b420f9d21101f9677fcffff383070994f6926de24d02381c048825006a627f0930082966b81fa0282"
+      },
+      {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc522015041f9ab502341a0c0c9106f13b71a3d"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Herz-Kartengeber",
+        "FinisherOrDowner": "87040cc522019050c503512341a000773f03efcf213d"
+      },
+      {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc32201"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc32201d0d7d5e7502341a0c0704b1f8595573a30b29503864ba2371096f2e09f018922d02381c048824806a527f0930082966b81fa02822daa"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc2220190779c05512341a04064a87c3d923f3af0b439ca917548379047d0d18e3e7822d02381c048823007aa27f0930082966b81fa02822daa"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc5220190bc6e10512341a0002f5061a498903a90dc6b589925be3c704b55437e6f6029d02381c048821808af27f0930082966b81fa0282"
+      },
+      {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc4220190ccaf58512341a000e5e51cd45e1327b0506be289203139b069c138fd1e"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc42201"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc32201"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc42201"
+      },
+      {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc222015004f727512341a0c0caba66896a023d70ff282383180c3cf052"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache"
+      },
+      {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "8b04407d1ddf448d048102545ea98f2268f5c06bf074615cacf0c09920a58af7c98a408f04022309c20838c2d604ee18d2a86aad"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "KillScore": 1,
+        "FinisherOrDowner": "87040cc5220150c9d3b9502341a000b2a19c7db58f3ad08708136ce9c93cb0853fa79949f62cd02381c048825007ab27f0930082966b81fa02822daa8334818d3481831d819a1d81"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc222011074b5df502341a0c04ec50890b01a3d"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc52201106daef8502341a0403884163a8c173d"
+      },
+      {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Düsterglanz"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
-        "PlayerNamePrivate": "Phantom-Muskelkater"
+        "PlayerNamePrivate": "Phantom-Muskelkater",
+        "FinisherOrDowner": "87040cc62201d08b916e512341a040b99eb04f37cf39504c16caaa4bb13cf05aaa279949362cd02381c048825807ab27f093"
       },
       {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc32201d0b793f6502341a000a8ec8dba1c173d"
+      },
+      {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Pasteten-Peter"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "87040cc3220190e163db5023"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Khaby Lame"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Gräfin Daraku"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
-        "PlayerNamePrivate": "Bestikor"
+        "PlayerNamePrivate": "Bestikor",
+        "FinisherOrDowner": "8d048102f66b2d6ed16cf74049a80f82cb30f6c0304b3620f5d45ac08f04022309e008face04160a0826096214789ec04f0208ea0b08b6a81e0a08220a08eac906d6041a0a0882cb041276046a76046e760416d20436d81a320586c3048ac30492d604bace04eec9b654ca7604ee760402ca0476c04feb05a6d704c6c2042ec82a096214789ec04f0208ea0b08b6a81e0a08220a08eac906d6041a0a0882cb041276046a76046e760416d20436d8"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Shadow-Rebell"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Arktisassassinin"
       },
       {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "8b044027923b458d"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "8b04400af97d448d"
+      },
+      {
+        "PlayerId": "00",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "8b04407614d3448d"
+      },
+      {
+        "PlayerId": "",
+        "bIsABot": true,
+        "PlayerNamePrivate": "Kleine-Nummer-Wache",
+        "FinisherOrDowner": "8b04408d9c3a458d"
+      },
+      {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
-        "bIsABot": true,
-        "PlayerNamePrivate": "Kleine-Nummer-Wache"
-      },
-      {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Der Kartengeber"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Der Kartengeber"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Kleine-Nummer-Wache"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Der Kartengeber"
       },
       {
+        "PlayerId": "",
         "bIsABot": true,
         "PlayerNamePrivate": "Knallerkalle"
       },
       {
+        "PlayerId": "00",
         "bIsABot": true,
         "PlayerNamePrivate": "Eiserner Bauer"
       }
