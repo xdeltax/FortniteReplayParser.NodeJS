@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "fn-replay-parser": "^1.1.3",
-    "fortnite-replay-parser": "^1.4.8",
+    "fortnite-replay-parser": "github:xNocken/replay-reader#7da45e4aa7fb58d33421d79d66c2136603a50ab4",
     "replay-reader": "^3.1.0"
   },
   "devDependencies": {
